@@ -1,0 +1,34 @@
+INFO - 2024-07-11 21:37:54,291 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-11 21:37:54,293 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\2024711 created!.
+INFO - 2024-07-11 21:37:54,294 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\2024711\Woolworths_product_urls created!.
+INFO - 2024-07-11 21:37:54,295 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\2024711\Woolworths_product_data created!.
+INFO - 2024-07-11 21:37:54,298 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\2024711\Woolworths_product_data\raw created!.
+INFO - 2024-07-11 21:37:54,299 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\2024711\Woolworths_product_data\processed created!.
+INFO - 2024-07-11 21:38:17,879 - web_scrape.store_scrape: -The number of products found for this category - 564
+INFO - 2024-07-11 21:38:19,002 - web_scrape.store_scrape: -Woolworths next page button found
+INFO - 2024-07-11 21:38:24,451 - web_scrape.store_scrape: -24 products scraped on page - 1
+INFO - 2024-07-11 21:38:24,452 - web_scrape.store_scrape: -Number of products scrapped so far - 24
+INFO - 2024-07-11 21:38:25,336 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 2
+INFO - 2024-07-11 21:38:27,913 - web_scrape.store_scrape: -24 products scraped on page - 2
+INFO - 2024-07-11 21:38:27,913 - web_scrape.store_scrape: -Number of products scrapped so far - 48
+INFO - 2024-07-11 21:38:28,425 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 3
+INFO - 2024-07-11 21:38:30,471 - web_scrape.store_scrape: -24 products scraped on page - 3
+INFO - 2024-07-11 21:38:30,471 - web_scrape.store_scrape: -Number of products scrapped so far - 72
+INFO - 2024-07-11 21:38:31,597 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 4
+INFO - 2024-07-11 21:38:34,087 - web_scrape.store_scrape: -24 products scraped on page - 4
+INFO - 2024-07-11 21:38:34,087 - web_scrape.store_scrape: -Number of products scrapped so far - 96
+INFO - 2024-07-11 21:38:34,837 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 5
+INFO - 2024-07-11 21:38:37,218 - web_scrape.store_scrape: -24 products scraped on page - 5
+INFO - 2024-07-11 21:38:37,218 - web_scrape.store_scrape: -Number of products scrapped so far - 120
+INFO - 2024-07-11 21:38:38,216 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 6
+INFO - 2024-07-11 21:38:40,163 - web_scrape.store_scrape: -24 products scraped on page - 6
+INFO - 2024-07-11 21:38:40,163 - web_scrape.store_scrape: -Number of products scrapped so far - 144
+INFO - 2024-07-11 21:38:40,709 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 7
+INFO - 2024-07-11 21:38:43,143 - web_scrape.store_scrape: -24 products scraped on page - 7
+INFO - 2024-07-11 21:38:43,144 - web_scrape.store_scrape: -Number of products scrapped so far - 168
+INFO - 2024-07-11 21:38:46,377 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 8
+INFO - 2024-07-11 21:38:48,673 - web_scrape.store_scrape: -24 products scraped on page - 8
+INFO - 2024-07-11 21:38:48,673 - web_scrape.store_scrape: -Number of products scrapped so far - 192
+INFO - 2024-07-11 21:38:49,517 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 9
+INFO - 2024-07-11 21:38:51,908 - web_scrape.store_scrape: -24 products scraped on page - 9
+INFO - 2024-07-11 21:38:51,908 - web_scrape.store_scrape: -Number of products scrapped so far - 216

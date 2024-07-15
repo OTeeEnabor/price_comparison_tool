@@ -1,0 +1,1299 @@
+INFO - 2024-06-28 10:59:06,524 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-06-28 11:02:04,425 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-06-28 11:02:04,427 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\2024628 created!.
+INFO - 2024-06-28 11:02:04,427 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\2024628\Woolworths_product_urls created!.
+INFO - 2024-06-28 11:02:04,428 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\2024628\Woolworths_product_data created!.
+INFO - 2024-06-28 11:02:22,096 - web_scrape.store_scrape: -The number of products found for this category - 574
+INFO - 2024-06-28 11:02:22,736 - web_scrape.store_scrape: -Woolworths next page button found
+INFO - 2024-06-28 11:02:28,053 - web_scrape.store_scrape: -24 products scraped on page - 1
+INFO - 2024-06-28 11:02:28,054 - web_scrape.store_scrape: -Number of products scrapped so far - 24
+INFO - 2024-06-28 11:02:28,783 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 2
+INFO - 2024-06-28 11:02:30,094 - web_scrape.store_scrape: -24 products scraped on page - 2
+INFO - 2024-06-28 11:02:30,095 - web_scrape.store_scrape: -Number of products scrapped so far - 48
+INFO - 2024-06-28 11:02:30,673 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 3
+INFO - 2024-06-28 11:02:32,401 - web_scrape.store_scrape: -24 products scraped on page - 3
+INFO - 2024-06-28 11:02:32,401 - web_scrape.store_scrape: -Number of products scrapped so far - 72
+INFO - 2024-06-28 11:02:32,946 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 4
+INFO - 2024-06-28 11:02:34,320 - web_scrape.store_scrape: -24 products scraped on page - 4
+INFO - 2024-06-28 11:02:34,321 - web_scrape.store_scrape: -Number of products scrapped so far - 96
+INFO - 2024-06-28 11:02:34,826 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 5
+INFO - 2024-06-28 11:02:36,484 - web_scrape.store_scrape: -24 products scraped on page - 5
+INFO - 2024-06-28 11:02:36,484 - web_scrape.store_scrape: -Number of products scrapped so far - 120
+INFO - 2024-06-28 11:02:37,025 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 6
+INFO - 2024-06-28 11:02:38,764 - web_scrape.store_scrape: -24 products scraped on page - 6
+INFO - 2024-06-28 11:02:38,765 - web_scrape.store_scrape: -Number of products scrapped so far - 144
+INFO - 2024-06-28 11:02:40,144 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 7
+INFO - 2024-06-28 11:02:41,400 - web_scrape.store_scrape: -24 products scraped on page - 7
+INFO - 2024-06-28 11:02:41,400 - web_scrape.store_scrape: -Number of products scrapped so far - 168
+INFO - 2024-06-28 11:02:42,343 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 8
+INFO - 2024-06-28 11:02:45,014 - web_scrape.store_scrape: -24 products scraped on page - 8
+INFO - 2024-06-28 11:02:45,014 - web_scrape.store_scrape: -Number of products scrapped so far - 192
+INFO - 2024-06-28 11:02:46,344 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 9
+INFO - 2024-06-28 11:02:48,216 - web_scrape.store_scrape: -24 products scraped on page - 9
+INFO - 2024-06-28 11:02:48,216 - web_scrape.store_scrape: -Number of products scrapped so far - 216
+INFO - 2024-06-28 11:02:48,950 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 10
+INFO - 2024-06-28 11:02:51,138 - web_scrape.store_scrape: -24 products scraped on page - 10
+INFO - 2024-06-28 11:02:51,138 - web_scrape.store_scrape: -Number of products scrapped so far - 240
+INFO - 2024-06-28 11:02:51,985 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 11
+INFO - 2024-06-28 11:02:55,133 - web_scrape.store_scrape: -24 products scraped on page - 11
+INFO - 2024-06-28 11:02:55,133 - web_scrape.store_scrape: -Number of products scrapped so far - 264
+INFO - 2024-06-28 11:02:55,884 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 12
+INFO - 2024-06-28 11:02:59,024 - web_scrape.store_scrape: -24 products scraped on page - 12
+INFO - 2024-06-28 11:02:59,024 - web_scrape.store_scrape: -Number of products scrapped so far - 288
+INFO - 2024-06-28 11:03:00,502 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 13
+INFO - 2024-06-28 11:03:02,356 - web_scrape.store_scrape: -24 products scraped on page - 13
+INFO - 2024-06-28 11:03:02,356 - web_scrape.store_scrape: -Number of products scrapped so far - 312
+INFO - 2024-06-28 11:03:03,004 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 14
+INFO - 2024-06-28 11:03:04,579 - web_scrape.store_scrape: -24 products scraped on page - 14
+INFO - 2024-06-28 11:03:04,580 - web_scrape.store_scrape: -Number of products scrapped so far - 336
+INFO - 2024-06-28 11:03:05,148 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 15
+INFO - 2024-06-28 11:03:06,793 - web_scrape.store_scrape: -24 products scraped on page - 15
+INFO - 2024-06-28 11:03:06,793 - web_scrape.store_scrape: -Number of products scrapped so far - 360
+INFO - 2024-06-28 11:03:07,471 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 16
+INFO - 2024-06-28 11:03:09,290 - web_scrape.store_scrape: -24 products scraped on page - 16
+INFO - 2024-06-28 11:03:09,291 - web_scrape.store_scrape: -Number of products scrapped so far - 384
+INFO - 2024-06-28 11:03:09,882 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 17
+INFO - 2024-06-28 11:03:12,258 - web_scrape.store_scrape: -24 products scraped on page - 17
+INFO - 2024-06-28 11:03:12,258 - web_scrape.store_scrape: -Number of products scrapped so far - 408
+INFO - 2024-06-28 11:03:12,937 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 18
+INFO - 2024-06-28 11:03:14,896 - web_scrape.store_scrape: -24 products scraped on page - 18
+INFO - 2024-06-28 11:03:14,896 - web_scrape.store_scrape: -Number of products scrapped so far - 432
+INFO - 2024-06-28 11:03:15,785 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 19
+INFO - 2024-06-28 11:03:18,629 - web_scrape.store_scrape: -24 products scraped on page - 19
+INFO - 2024-06-28 11:03:18,630 - web_scrape.store_scrape: -Number of products scrapped so far - 456
+INFO - 2024-06-28 11:03:19,446 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 20
+INFO - 2024-06-28 11:03:21,262 - web_scrape.store_scrape: -24 products scraped on page - 20
+INFO - 2024-06-28 11:03:21,262 - web_scrape.store_scrape: -Number of products scrapped so far - 480
+INFO - 2024-06-28 11:03:21,875 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 21
+INFO - 2024-06-28 11:03:23,882 - web_scrape.store_scrape: -24 products scraped on page - 21
+INFO - 2024-06-28 11:03:23,882 - web_scrape.store_scrape: -Number of products scrapped so far - 504
+INFO - 2024-06-28 11:03:24,730 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 22
+INFO - 2024-06-28 11:03:26,669 - web_scrape.store_scrape: -24 products scraped on page - 22
+INFO - 2024-06-28 11:03:26,670 - web_scrape.store_scrape: -Number of products scrapped so far - 528
+INFO - 2024-06-28 11:03:27,448 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 23
+INFO - 2024-06-28 11:03:29,260 - web_scrape.store_scrape: -23 products scraped on page - 23
+INFO - 2024-06-28 11:03:29,261 - web_scrape.store_scrape: -Number of products scrapped so far - 551
+INFO - 2024-06-28 11:03:30,080 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 24
+INFO - 2024-06-28 11:03:31,879 - web_scrape.store_scrape: -22 products scraped on page - 24
+INFO - 2024-06-28 11:03:31,879 - web_scrape.store_scrape: -Number of products scrapped so far - 573
+ERROR - 2024-06-28 11:03:42,002 - web_scrape.store_scrape: -Message: element not interactable
+  (Session info: chrome-headless-shell=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B9BC1F22+60322]
+	(No symbol) [0x00007FF7B9B3CE99]
+	(No symbol) [0x00007FF7B99F7CE9]
+	(No symbol) [0x00007FF7B9A489C2]
+	(No symbol) [0x00007FF7B9A3B491]
+	(No symbol) [0x00007FF7B9A6C21A]
+	(No symbol) [0x00007FF7B9A3ADB6]
+	(No symbol) [0x00007FF7B9A6C430]
+	(No symbol) [0x00007FF7B9A8BC80]
+	(No symbol) [0x00007FF7B9A6BFC3]
+	(No symbol) [0x00007FF7B9A39617]
+	(No symbol) [0x00007FF7B9A3A211]
+	GetHandleVerifier [0x00007FF7B9ED946D+3301613]
+	GetHandleVerifier [0x00007FF7B9F23693+3605267]
+	GetHandleVerifier [0x00007FF7B9F19410+3563664]
+	GetHandleVerifier [0x00007FF7B9C742F6+790390]
+	(No symbol) [0x00007FF7B9B474DF]
+	(No symbol) [0x00007FF7B9B433D4]
+	(No symbol) [0x00007FF7B9B43562]
+	(No symbol) [0x00007FF7B9B32F6F]
+	BaseThreadInitThunk [0x00007FFCB5087344+20]
+	RtlUserThreadStart [0x00007FFCB6C5CC91+33]
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 163, in get_woolworth_urls
+    next_page_button_woolworths.click()
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome-headless-shell=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B9BC1F22+60322]
+	(No symbol) [0x00007FF7B9B3CE99]
+	(No symbol) [0x00007FF7B99F7CE9]
+	(No symbol) [0x00007FF7B9A489C2]
+	(No symbol) [0x00007FF7B9A3B491]
+	(No symbol) [0x00007FF7B9A6C21A]
+	(No symbol) [0x00007FF7B9A3ADB6]
+	(No symbol) [0x00007FF7B9A6C430]
+	(No symbol) [0x00007FF7B9A8BC80]
+	(No symbol) [0x00007FF7B9A6BFC3]
+	(No symbol) [0x00007FF7B9A39617]
+	(No symbol) [0x00007FF7B9A3A211]
+	GetHandleVerifier [0x00007FF7B9ED946D+3301613]
+	GetHandleVerifier [0x00007FF7B9F23693+3605267]
+	GetHandleVerifier [0x00007FF7B9F19410+3563664]
+	GetHandleVerifier [0x00007FF7B9C742F6+790390]
+	(No symbol) [0x00007FF7B9B474DF]
+	(No symbol) [0x00007FF7B9B433D4]
+	(No symbol) [0x00007FF7B9B43562]
+	(No symbol) [0x00007FF7B9B32F6F]
+	BaseThreadInitThunk [0x00007FFCB5087344+20]
+	RtlUserThreadStart [0x00007FFCB6C5CC91+33]
+Stack (most recent call last):
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\main.py", line 29, in <module>
+    store_scraper.get_product_urls()
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\store_scrape.py", line 101, in get_product_urls
+    category_product_links = selenium_scrape.url_scraper(
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 267, in url_scraper
+    product_urls_list = get_woolworth_urls(driver)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 165, in get_woolworth_urls
+    sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
+INFO - 2024-06-28 11:03:44,295 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\2024628\Woolworths_product_urls/Fruit_Veg_Salad.csv saved
+INFO - 2024-06-28 11:03:58,967 - web_scrape.store_scrape: -The number of products found for this category - 510
+INFO - 2024-06-28 11:03:59,063 - web_scrape.store_scrape: -Woolworths next page button found
+INFO - 2024-06-28 11:04:04,341 - web_scrape.store_scrape: -24 products scraped on page - 1
+INFO - 2024-06-28 11:04:04,342 - web_scrape.store_scrape: -Number of products scrapped so far - 24
+INFO - 2024-06-28 11:04:05,055 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 2
+INFO - 2024-06-28 11:04:06,301 - web_scrape.store_scrape: -24 products scraped on page - 2
+INFO - 2024-06-28 11:04:06,301 - web_scrape.store_scrape: -Number of products scrapped so far - 48
+INFO - 2024-06-28 11:04:06,863 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 3
+INFO - 2024-06-28 11:04:08,170 - web_scrape.store_scrape: -24 products scraped on page - 3
+INFO - 2024-06-28 11:04:08,170 - web_scrape.store_scrape: -Number of products scrapped so far - 72
+INFO - 2024-06-28 11:04:08,686 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 4
+INFO - 2024-06-28 11:04:10,044 - web_scrape.store_scrape: -24 products scraped on page - 4
+INFO - 2024-06-28 11:04:10,044 - web_scrape.store_scrape: -Number of products scrapped so far - 96
+INFO - 2024-06-28 11:04:10,590 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 5
+INFO - 2024-06-28 11:04:12,413 - web_scrape.store_scrape: -24 products scraped on page - 5
+INFO - 2024-06-28 11:04:12,413 - web_scrape.store_scrape: -Number of products scrapped so far - 120
+INFO - 2024-06-28 11:04:12,974 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 6
+INFO - 2024-06-28 11:04:14,370 - web_scrape.store_scrape: -24 products scraped on page - 6
+INFO - 2024-06-28 11:04:14,370 - web_scrape.store_scrape: -Number of products scrapped so far - 144
+INFO - 2024-06-28 11:04:14,946 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 7
+INFO - 2024-06-28 11:04:16,796 - web_scrape.store_scrape: -24 products scraped on page - 7
+INFO - 2024-06-28 11:04:16,796 - web_scrape.store_scrape: -Number of products scrapped so far - 168
+INFO - 2024-06-28 11:04:17,372 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 8
+INFO - 2024-06-28 11:04:20,103 - web_scrape.store_scrape: -24 products scraped on page - 8
+INFO - 2024-06-28 11:04:20,104 - web_scrape.store_scrape: -Number of products scrapped so far - 192
+INFO - 2024-06-28 11:04:20,700 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 9
+INFO - 2024-06-28 11:04:23,098 - web_scrape.store_scrape: -24 products scraped on page - 9
+INFO - 2024-06-28 11:04:23,098 - web_scrape.store_scrape: -Number of products scrapped so far - 216
+INFO - 2024-06-28 11:04:24,053 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 10
+INFO - 2024-06-28 11:04:27,057 - web_scrape.store_scrape: -24 products scraped on page - 10
+INFO - 2024-06-28 11:04:27,058 - web_scrape.store_scrape: -Number of products scrapped so far - 240
+INFO - 2024-06-28 11:04:28,214 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 11
+INFO - 2024-06-28 11:04:31,079 - web_scrape.store_scrape: -24 products scraped on page - 11
+INFO - 2024-06-28 11:04:31,079 - web_scrape.store_scrape: -Number of products scrapped so far - 264
+INFO - 2024-06-28 11:04:32,221 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 12
+INFO - 2024-06-28 11:04:34,376 - web_scrape.store_scrape: -24 products scraped on page - 12
+INFO - 2024-06-28 11:04:34,376 - web_scrape.store_scrape: -Number of products scrapped so far - 288
+INFO - 2024-06-28 11:04:35,223 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 13
+INFO - 2024-06-28 11:04:36,962 - web_scrape.store_scrape: -24 products scraped on page - 13
+INFO - 2024-06-28 11:04:36,962 - web_scrape.store_scrape: -Number of products scrapped so far - 312
+INFO - 2024-06-28 11:04:37,624 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 14
+INFO - 2024-06-28 11:04:39,332 - web_scrape.store_scrape: -24 products scraped on page - 14
+INFO - 2024-06-28 11:04:39,332 - web_scrape.store_scrape: -Number of products scrapped so far - 336
+INFO - 2024-06-28 11:04:40,368 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 15
+INFO - 2024-06-28 11:04:43,012 - web_scrape.store_scrape: -24 products scraped on page - 15
+INFO - 2024-06-28 11:04:43,012 - web_scrape.store_scrape: -Number of products scrapped so far - 360
+INFO - 2024-06-28 11:04:44,027 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 16
+INFO - 2024-06-28 11:04:46,859 - web_scrape.store_scrape: -24 products scraped on page - 16
+INFO - 2024-06-28 11:04:46,859 - web_scrape.store_scrape: -Number of products scrapped so far - 384
+INFO - 2024-06-28 11:04:47,759 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 17
+INFO - 2024-06-28 11:04:49,530 - web_scrape.store_scrape: -24 products scraped on page - 17
+INFO - 2024-06-28 11:04:49,530 - web_scrape.store_scrape: -Number of products scrapped so far - 408
+INFO - 2024-06-28 11:04:50,139 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 18
+INFO - 2024-06-28 11:04:52,031 - web_scrape.store_scrape: -24 products scraped on page - 18
+INFO - 2024-06-28 11:04:52,031 - web_scrape.store_scrape: -Number of products scrapped so far - 432
+INFO - 2024-06-28 11:04:52,637 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 19
+INFO - 2024-06-28 11:04:54,375 - web_scrape.store_scrape: -24 products scraped on page - 19
+INFO - 2024-06-28 11:04:54,375 - web_scrape.store_scrape: -Number of products scrapped so far - 456
+INFO - 2024-06-28 11:04:55,215 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 20
+INFO - 2024-06-28 11:04:57,458 - web_scrape.store_scrape: -24 products scraped on page - 20
+INFO - 2024-06-28 11:04:57,458 - web_scrape.store_scrape: -Number of products scrapped so far - 480
+INFO - 2024-06-28 11:04:58,379 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 21
+INFO - 2024-06-28 11:05:00,559 - web_scrape.store_scrape: -24 products scraped on page - 21
+INFO - 2024-06-28 11:05:00,560 - web_scrape.store_scrape: -Number of products scrapped so far - 504
+INFO - 2024-06-28 11:05:01,627 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 22
+INFO - 2024-06-28 11:05:02,554 - web_scrape.store_scrape: -6 products scraped on page - 22
+INFO - 2024-06-28 11:05:02,555 - web_scrape.store_scrape: -Number of products scrapped so far - 510
+ERROR - 2024-06-28 11:05:12,665 - web_scrape.store_scrape: -Message: element not interactable
+  (Session info: chrome-headless-shell=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B9BC1F22+60322]
+	(No symbol) [0x00007FF7B9B3CE99]
+	(No symbol) [0x00007FF7B99F7CE9]
+	(No symbol) [0x00007FF7B9A489C2]
+	(No symbol) [0x00007FF7B9A3B491]
+	(No symbol) [0x00007FF7B9A6C21A]
+	(No symbol) [0x00007FF7B9A3ADB6]
+	(No symbol) [0x00007FF7B9A6C430]
+	(No symbol) [0x00007FF7B9A8BC80]
+	(No symbol) [0x00007FF7B9A6BFC3]
+	(No symbol) [0x00007FF7B9A39617]
+	(No symbol) [0x00007FF7B9A3A211]
+	GetHandleVerifier [0x00007FF7B9ED946D+3301613]
+	GetHandleVerifier [0x00007FF7B9F23693+3605267]
+	GetHandleVerifier [0x00007FF7B9F19410+3563664]
+	GetHandleVerifier [0x00007FF7B9C742F6+790390]
+	(No symbol) [0x00007FF7B9B474DF]
+	(No symbol) [0x00007FF7B9B433D4]
+	(No symbol) [0x00007FF7B9B43562]
+	(No symbol) [0x00007FF7B9B32F6F]
+	BaseThreadInitThunk [0x00007FFCB5087344+20]
+	RtlUserThreadStart [0x00007FFCB6C5CC91+33]
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 163, in get_woolworth_urls
+    next_page_button_woolworths.click()
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome-headless-shell=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B9BC1F22+60322]
+	(No symbol) [0x00007FF7B9B3CE99]
+	(No symbol) [0x00007FF7B99F7CE9]
+	(No symbol) [0x00007FF7B9A489C2]
+	(No symbol) [0x00007FF7B9A3B491]
+	(No symbol) [0x00007FF7B9A6C21A]
+	(No symbol) [0x00007FF7B9A3ADB6]
+	(No symbol) [0x00007FF7B9A6C430]
+	(No symbol) [0x00007FF7B9A8BC80]
+	(No symbol) [0x00007FF7B9A6BFC3]
+	(No symbol) [0x00007FF7B9A39617]
+	(No symbol) [0x00007FF7B9A3A211]
+	GetHandleVerifier [0x00007FF7B9ED946D+3301613]
+	GetHandleVerifier [0x00007FF7B9F23693+3605267]
+	GetHandleVerifier [0x00007FF7B9F19410+3563664]
+	GetHandleVerifier [0x00007FF7B9C742F6+790390]
+	(No symbol) [0x00007FF7B9B474DF]
+	(No symbol) [0x00007FF7B9B433D4]
+	(No symbol) [0x00007FF7B9B43562]
+	(No symbol) [0x00007FF7B9B32F6F]
+	BaseThreadInitThunk [0x00007FFCB5087344+20]
+	RtlUserThreadStart [0x00007FFCB6C5CC91+33]
+Stack (most recent call last):
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\main.py", line 29, in <module>
+    store_scraper.get_product_urls()
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\store_scrape.py", line 101, in get_product_urls
+    category_product_links = selenium_scrape.url_scraper(
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 267, in url_scraper
+    product_urls_list = get_woolworth_urls(driver)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 165, in get_woolworth_urls
+    sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
+INFO - 2024-06-28 11:05:15,754 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\2024628\Woolworths_product_urls/Meat_Poultry_Fish.csv saved
+INFO - 2024-06-28 11:05:30,645 - web_scrape.store_scrape: -The number of products found for this category - 437
+INFO - 2024-06-28 11:05:30,716 - web_scrape.store_scrape: -Woolworths next page button found
+INFO - 2024-06-28 11:05:36,013 - web_scrape.store_scrape: -24 products scraped on page - 1
+INFO - 2024-06-28 11:05:36,013 - web_scrape.store_scrape: -Number of products scrapped so far - 24
+INFO - 2024-06-28 11:05:36,707 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 2
+INFO - 2024-06-28 11:05:38,230 - web_scrape.store_scrape: -24 products scraped on page - 2
+INFO - 2024-06-28 11:05:38,230 - web_scrape.store_scrape: -Number of products scrapped so far - 48
+INFO - 2024-06-28 11:05:38,824 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 3
+INFO - 2024-06-28 11:05:40,322 - web_scrape.store_scrape: -24 products scraped on page - 3
+INFO - 2024-06-28 11:05:40,322 - web_scrape.store_scrape: -Number of products scrapped so far - 72
+INFO - 2024-06-28 11:05:40,870 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 4
+INFO - 2024-06-28 11:05:42,189 - web_scrape.store_scrape: -24 products scraped on page - 4
+INFO - 2024-06-28 11:05:42,190 - web_scrape.store_scrape: -Number of products scrapped so far - 96
+INFO - 2024-06-28 11:05:42,742 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 5
+INFO - 2024-06-28 11:05:44,538 - web_scrape.store_scrape: -24 products scraped on page - 5
+INFO - 2024-06-28 11:05:44,539 - web_scrape.store_scrape: -Number of products scrapped so far - 120
+INFO - 2024-06-28 11:05:44,994 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 6
+INFO - 2024-06-28 11:05:46,605 - web_scrape.store_scrape: -24 products scraped on page - 6
+INFO - 2024-06-28 11:05:46,605 - web_scrape.store_scrape: -Number of products scrapped so far - 144
+INFO - 2024-06-28 11:05:47,307 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 7
+INFO - 2024-06-28 11:05:49,280 - web_scrape.store_scrape: -24 products scraped on page - 7
+INFO - 2024-06-28 11:05:49,280 - web_scrape.store_scrape: -Number of products scrapped so far - 168
+INFO - 2024-06-28 11:05:50,201 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 8
+INFO - 2024-06-28 11:05:52,157 - web_scrape.store_scrape: -24 products scraped on page - 8
+INFO - 2024-06-28 11:05:52,158 - web_scrape.store_scrape: -Number of products scrapped so far - 192
+INFO - 2024-06-28 11:05:52,676 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 9
+INFO - 2024-06-28 11:05:55,132 - web_scrape.store_scrape: -24 products scraped on page - 9
+INFO - 2024-06-28 11:05:55,132 - web_scrape.store_scrape: -Number of products scrapped so far - 216
+INFO - 2024-06-28 11:05:55,932 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 10
+INFO - 2024-06-28 11:05:57,732 - web_scrape.store_scrape: -24 products scraped on page - 10
+INFO - 2024-06-28 11:05:57,732 - web_scrape.store_scrape: -Number of products scrapped so far - 240
+INFO - 2024-06-28 11:05:58,754 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 11
+INFO - 2024-06-28 11:06:00,350 - web_scrape.store_scrape: -24 products scraped on page - 11
+INFO - 2024-06-28 11:06:00,350 - web_scrape.store_scrape: -Number of products scrapped so far - 264
+INFO - 2024-06-28 11:06:00,980 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 12
+INFO - 2024-06-28 11:06:02,678 - web_scrape.store_scrape: -24 products scraped on page - 12
+INFO - 2024-06-28 11:06:02,679 - web_scrape.store_scrape: -Number of products scrapped so far - 288
+INFO - 2024-06-28 11:06:03,193 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 13
+INFO - 2024-06-28 11:06:04,942 - web_scrape.store_scrape: -24 products scraped on page - 13
+INFO - 2024-06-28 11:06:04,942 - web_scrape.store_scrape: -Number of products scrapped so far - 312
+INFO - 2024-06-28 11:06:05,528 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 14
+INFO - 2024-06-28 11:06:07,207 - web_scrape.store_scrape: -24 products scraped on page - 14
+INFO - 2024-06-28 11:06:07,207 - web_scrape.store_scrape: -Number of products scrapped so far - 336
+INFO - 2024-06-28 11:06:07,901 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 15
+INFO - 2024-06-28 11:06:09,976 - web_scrape.store_scrape: -24 products scraped on page - 15
+INFO - 2024-06-28 11:06:09,976 - web_scrape.store_scrape: -Number of products scrapped so far - 360
+INFO - 2024-06-28 11:06:10,742 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 16
+INFO - 2024-06-28 11:06:13,078 - web_scrape.store_scrape: -24 products scraped on page - 16
+INFO - 2024-06-28 11:06:13,078 - web_scrape.store_scrape: -Number of products scrapped so far - 384
+INFO - 2024-06-28 11:06:14,185 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 17
+INFO - 2024-06-28 11:06:15,984 - web_scrape.store_scrape: -24 products scraped on page - 17
+INFO - 2024-06-28 11:06:15,984 - web_scrape.store_scrape: -Number of products scrapped so far - 408
+INFO - 2024-06-28 11:06:17,194 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 18
+INFO - 2024-06-28 11:06:19,462 - web_scrape.store_scrape: -24 products scraped on page - 18
+INFO - 2024-06-28 11:06:19,462 - web_scrape.store_scrape: -Number of products scrapped so far - 432
+INFO - 2024-06-28 11:06:20,558 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 19
+INFO - 2024-06-28 11:06:21,970 - web_scrape.store_scrape: -5 products scraped on page - 19
+INFO - 2024-06-28 11:06:21,970 - web_scrape.store_scrape: -Number of products scrapped so far - 437
+ERROR - 2024-06-28 11:06:32,133 - web_scrape.store_scrape: -Message: element not interactable
+  (Session info: chrome-headless-shell=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B9BC1F22+60322]
+	(No symbol) [0x00007FF7B9B3CE99]
+	(No symbol) [0x00007FF7B99F7CE9]
+	(No symbol) [0x00007FF7B9A489C2]
+	(No symbol) [0x00007FF7B9A3B491]
+	(No symbol) [0x00007FF7B9A6C21A]
+	(No symbol) [0x00007FF7B9A3ADB6]
+	(No symbol) [0x00007FF7B9A6C430]
+	(No symbol) [0x00007FF7B9A8BC80]
+	(No symbol) [0x00007FF7B9A6BFC3]
+	(No symbol) [0x00007FF7B9A39617]
+	(No symbol) [0x00007FF7B9A3A211]
+	GetHandleVerifier [0x00007FF7B9ED946D+3301613]
+	GetHandleVerifier [0x00007FF7B9F23693+3605267]
+	GetHandleVerifier [0x00007FF7B9F19410+3563664]
+	GetHandleVerifier [0x00007FF7B9C742F6+790390]
+	(No symbol) [0x00007FF7B9B474DF]
+	(No symbol) [0x00007FF7B9B433D4]
+	(No symbol) [0x00007FF7B9B43562]
+	(No symbol) [0x00007FF7B9B32F6F]
+	BaseThreadInitThunk [0x00007FFCB5087344+20]
+	RtlUserThreadStart [0x00007FFCB6C5CC91+33]
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 163, in get_woolworth_urls
+    next_page_button_woolworths.click()
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome-headless-shell=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B9BC1F22+60322]
+	(No symbol) [0x00007FF7B9B3CE99]
+	(No symbol) [0x00007FF7B99F7CE9]
+	(No symbol) [0x00007FF7B9A489C2]
+	(No symbol) [0x00007FF7B9A3B491]
+	(No symbol) [0x00007FF7B9A6C21A]
+	(No symbol) [0x00007FF7B9A3ADB6]
+	(No symbol) [0x00007FF7B9A6C430]
+	(No symbol) [0x00007FF7B9A8BC80]
+	(No symbol) [0x00007FF7B9A6BFC3]
+	(No symbol) [0x00007FF7B9A39617]
+	(No symbol) [0x00007FF7B9A3A211]
+	GetHandleVerifier [0x00007FF7B9ED946D+3301613]
+	GetHandleVerifier [0x00007FF7B9F23693+3605267]
+	GetHandleVerifier [0x00007FF7B9F19410+3563664]
+	GetHandleVerifier [0x00007FF7B9C742F6+790390]
+	(No symbol) [0x00007FF7B9B474DF]
+	(No symbol) [0x00007FF7B9B433D4]
+	(No symbol) [0x00007FF7B9B43562]
+	(No symbol) [0x00007FF7B9B32F6F]
+	BaseThreadInitThunk [0x00007FFCB5087344+20]
+	RtlUserThreadStart [0x00007FFCB6C5CC91+33]
+Stack (most recent call last):
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\main.py", line 29, in <module>
+    store_scraper.get_product_urls()
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\store_scrape.py", line 101, in get_product_urls
+    category_product_links = selenium_scrape.url_scraper(
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 267, in url_scraper
+    product_urls_list = get_woolworth_urls(driver)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 165, in get_woolworth_urls
+    sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
+INFO - 2024-06-28 11:06:34,238 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\2024628\Woolworths_product_urls/Bakery_Desserts.csv saved
+INFO - 2024-06-28 11:07:08,289 - web_scrape.store_scrape: -The number of products found for this category - 203
+INFO - 2024-06-28 11:07:08,355 - web_scrape.store_scrape: -Woolworths next page button found
+INFO - 2024-06-28 11:07:13,634 - web_scrape.store_scrape: -24 products scraped on page - 1
+INFO - 2024-06-28 11:07:13,635 - web_scrape.store_scrape: -Number of products scrapped so far - 24
+INFO - 2024-06-28 11:07:14,274 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 2
+INFO - 2024-06-28 11:07:15,771 - web_scrape.store_scrape: -24 products scraped on page - 2
+INFO - 2024-06-28 11:07:15,771 - web_scrape.store_scrape: -Number of products scrapped so far - 48
+INFO - 2024-06-28 11:07:16,321 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 3
+INFO - 2024-06-28 11:07:17,403 - web_scrape.store_scrape: -24 products scraped on page - 3
+INFO - 2024-06-28 11:07:17,404 - web_scrape.store_scrape: -Number of products scrapped so far - 72
+INFO - 2024-06-28 11:07:17,830 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 4
+INFO - 2024-06-28 11:07:19,179 - web_scrape.store_scrape: -24 products scraped on page - 4
+INFO - 2024-06-28 11:07:19,179 - web_scrape.store_scrape: -Number of products scrapped so far - 96
+INFO - 2024-06-28 11:07:19,717 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 5
+INFO - 2024-06-28 11:07:21,178 - web_scrape.store_scrape: -24 products scraped on page - 5
+INFO - 2024-06-28 11:07:21,178 - web_scrape.store_scrape: -Number of products scrapped so far - 120
+INFO - 2024-06-28 11:07:21,607 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 6
+INFO - 2024-06-28 11:07:22,753 - web_scrape.store_scrape: -24 products scraped on page - 6
+INFO - 2024-06-28 11:07:22,753 - web_scrape.store_scrape: -Number of products scrapped so far - 144
+INFO - 2024-06-28 11:07:23,420 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 7
+INFO - 2024-06-28 11:07:24,808 - web_scrape.store_scrape: -24 products scraped on page - 7
+INFO - 2024-06-28 11:07:24,808 - web_scrape.store_scrape: -Number of products scrapped so far - 168
+INFO - 2024-06-28 11:07:25,336 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 8
+INFO - 2024-06-28 11:07:27,405 - web_scrape.store_scrape: -24 products scraped on page - 8
+INFO - 2024-06-28 11:07:27,405 - web_scrape.store_scrape: -Number of products scrapped so far - 192
+INFO - 2024-06-28 11:07:27,935 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 9
+INFO - 2024-06-28 11:07:29,521 - web_scrape.store_scrape: -11 products scraped on page - 9
+INFO - 2024-06-28 11:07:29,522 - web_scrape.store_scrape: -Number of products scrapped so far - 203
+ERROR - 2024-06-28 11:07:39,649 - web_scrape.store_scrape: -Message: element not interactable
+  (Session info: chrome-headless-shell=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B9BC1F22+60322]
+	(No symbol) [0x00007FF7B9B3CE99]
+	(No symbol) [0x00007FF7B99F7CE9]
+	(No symbol) [0x00007FF7B9A489C2]
+	(No symbol) [0x00007FF7B9A3B491]
+	(No symbol) [0x00007FF7B9A6C21A]
+	(No symbol) [0x00007FF7B9A3ADB6]
+	(No symbol) [0x00007FF7B9A6C430]
+	(No symbol) [0x00007FF7B9A8BC80]
+	(No symbol) [0x00007FF7B9A6BFC3]
+	(No symbol) [0x00007FF7B9A39617]
+	(No symbol) [0x00007FF7B9A3A211]
+	GetHandleVerifier [0x00007FF7B9ED946D+3301613]
+	GetHandleVerifier [0x00007FF7B9F23693+3605267]
+	GetHandleVerifier [0x00007FF7B9F19410+3563664]
+	GetHandleVerifier [0x00007FF7B9C742F6+790390]
+	(No symbol) [0x00007FF7B9B474DF]
+	(No symbol) [0x00007FF7B9B433D4]
+	(No symbol) [0x00007FF7B9B43562]
+	(No symbol) [0x00007FF7B9B32F6F]
+	BaseThreadInitThunk [0x00007FFCB5087344+20]
+	RtlUserThreadStart [0x00007FFCB6C5CC91+33]
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 163, in get_woolworth_urls
+    next_page_button_woolworths.click()
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome-headless-shell=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B9BC1F22+60322]
+	(No symbol) [0x00007FF7B9B3CE99]
+	(No symbol) [0x00007FF7B99F7CE9]
+	(No symbol) [0x00007FF7B9A489C2]
+	(No symbol) [0x00007FF7B9A3B491]
+	(No symbol) [0x00007FF7B9A6C21A]
+	(No symbol) [0x00007FF7B9A3ADB6]
+	(No symbol) [0x00007FF7B9A6C430]
+	(No symbol) [0x00007FF7B9A8BC80]
+	(No symbol) [0x00007FF7B9A6BFC3]
+	(No symbol) [0x00007FF7B9A39617]
+	(No symbol) [0x00007FF7B9A3A211]
+	GetHandleVerifier [0x00007FF7B9ED946D+3301613]
+	GetHandleVerifier [0x00007FF7B9F23693+3605267]
+	GetHandleVerifier [0x00007FF7B9F19410+3563664]
+	GetHandleVerifier [0x00007FF7B9C742F6+790390]
+	(No symbol) [0x00007FF7B9B474DF]
+	(No symbol) [0x00007FF7B9B433D4]
+	(No symbol) [0x00007FF7B9B43562]
+	(No symbol) [0x00007FF7B9B32F6F]
+	BaseThreadInitThunk [0x00007FFCB5087344+20]
+	RtlUserThreadStart [0x00007FFCB6C5CC91+33]
+Stack (most recent call last):
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\main.py", line 29, in <module>
+    store_scraper.get_product_urls()
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\store_scrape.py", line 101, in get_product_urls
+    category_product_links = selenium_scrape.url_scraper(
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 267, in url_scraper
+    product_urls_list = get_woolworth_urls(driver)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 165, in get_woolworth_urls
+    sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
+INFO - 2024-06-28 11:07:41,740 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\2024628\Woolworths_product_urls/ReadyMeals.csv saved
+INFO - 2024-06-28 11:07:50,926 - web_scrape.store_scrape: -The number of products found for this category - 525
+INFO - 2024-06-28 11:07:51,007 - web_scrape.store_scrape: -Woolworths next page button found
+INFO - 2024-06-28 11:07:56,318 - web_scrape.store_scrape: -24 products scraped on page - 1
+INFO - 2024-06-28 11:07:56,318 - web_scrape.store_scrape: -Number of products scrapped so far - 24
+INFO - 2024-06-28 11:07:56,964 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 2
+INFO - 2024-06-28 11:07:58,905 - web_scrape.store_scrape: -24 products scraped on page - 2
+INFO - 2024-06-28 11:07:58,905 - web_scrape.store_scrape: -Number of products scrapped so far - 48
+INFO - 2024-06-28 11:07:59,698 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 3
+INFO - 2024-06-28 11:08:01,032 - web_scrape.store_scrape: -24 products scraped on page - 3
+INFO - 2024-06-28 11:08:01,033 - web_scrape.store_scrape: -Number of products scrapped so far - 72
+INFO - 2024-06-28 11:08:01,577 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 4
+INFO - 2024-06-28 11:08:03,257 - web_scrape.store_scrape: -24 products scraped on page - 4
+INFO - 2024-06-28 11:08:03,257 - web_scrape.store_scrape: -Number of products scrapped so far - 96
+INFO - 2024-06-28 11:08:03,904 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 5
+INFO - 2024-06-28 11:08:05,570 - web_scrape.store_scrape: -24 products scraped on page - 5
+INFO - 2024-06-28 11:08:05,570 - web_scrape.store_scrape: -Number of products scrapped so far - 120
+INFO - 2024-06-28 11:08:06,124 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 6
+INFO - 2024-06-28 11:08:08,642 - web_scrape.store_scrape: -24 products scraped on page - 6
+INFO - 2024-06-28 11:08:08,642 - web_scrape.store_scrape: -Number of products scrapped so far - 144
+INFO - 2024-06-28 11:08:09,189 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 7
+INFO - 2024-06-28 11:08:20,454 - web_scrape.store_scrape: -24 products scraped on page - 7
+INFO - 2024-06-28 11:08:20,454 - web_scrape.store_scrape: -Number of products scrapped so far - 168
+INFO - 2024-06-28 11:08:21,572 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 8
+INFO - 2024-06-28 11:08:23,526 - web_scrape.store_scrape: -24 products scraped on page - 8
+INFO - 2024-06-28 11:08:23,526 - web_scrape.store_scrape: -Number of products scrapped so far - 192
+INFO - 2024-06-28 11:08:24,206 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 9
+INFO - 2024-06-28 11:08:26,727 - web_scrape.store_scrape: -24 products scraped on page - 9
+INFO - 2024-06-28 11:08:26,727 - web_scrape.store_scrape: -Number of products scrapped so far - 216
+INFO - 2024-06-28 11:08:28,503 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 10
+INFO - 2024-06-28 11:08:32,087 - web_scrape.store_scrape: -24 products scraped on page - 10
+INFO - 2024-06-28 11:08:32,087 - web_scrape.store_scrape: -Number of products scrapped so far - 240
+INFO - 2024-06-28 11:08:33,630 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 11
+INFO - 2024-06-28 11:08:36,571 - web_scrape.store_scrape: -24 products scraped on page - 11
+INFO - 2024-06-28 11:08:36,572 - web_scrape.store_scrape: -Number of products scrapped so far - 264
+INFO - 2024-06-28 11:08:37,721 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 12
+INFO - 2024-06-28 11:08:41,036 - web_scrape.store_scrape: -24 products scraped on page - 12
+INFO - 2024-06-28 11:08:41,036 - web_scrape.store_scrape: -Number of products scrapped so far - 288
+INFO - 2024-06-28 11:08:42,166 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 13
+INFO - 2024-06-28 11:08:44,911 - web_scrape.store_scrape: -24 products scraped on page - 13
+INFO - 2024-06-28 11:08:44,912 - web_scrape.store_scrape: -Number of products scrapped so far - 312
+INFO - 2024-06-28 11:08:46,208 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 14
+INFO - 2024-06-28 11:08:49,109 - web_scrape.store_scrape: -24 products scraped on page - 14
+INFO - 2024-06-28 11:08:49,109 - web_scrape.store_scrape: -Number of products scrapped so far - 336
+INFO - 2024-06-28 11:08:50,522 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 15
+INFO - 2024-06-28 11:08:52,532 - web_scrape.store_scrape: -24 products scraped on page - 15
+INFO - 2024-06-28 11:08:52,533 - web_scrape.store_scrape: -Number of products scrapped so far - 360
+INFO - 2024-06-28 11:08:53,347 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 16
+INFO - 2024-06-28 11:08:56,221 - web_scrape.store_scrape: -24 products scraped on page - 16
+INFO - 2024-06-28 11:08:56,221 - web_scrape.store_scrape: -Number of products scrapped so far - 384
+INFO - 2024-06-28 11:08:57,144 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 17
+INFO - 2024-06-28 11:08:59,393 - web_scrape.store_scrape: -24 products scraped on page - 17
+INFO - 2024-06-28 11:08:59,393 - web_scrape.store_scrape: -Number of products scrapped so far - 408
+INFO - 2024-06-28 11:09:00,381 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 18
+INFO - 2024-06-28 11:09:02,998 - web_scrape.store_scrape: -24 products scraped on page - 18
+INFO - 2024-06-28 11:09:02,999 - web_scrape.store_scrape: -Number of products scrapped so far - 432
+INFO - 2024-06-28 11:09:03,951 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 19
+INFO - 2024-06-28 11:09:06,188 - web_scrape.store_scrape: -24 products scraped on page - 19
+INFO - 2024-06-28 11:09:06,188 - web_scrape.store_scrape: -Number of products scrapped so far - 456
+INFO - 2024-06-28 11:09:07,124 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 20
+INFO - 2024-06-28 11:09:09,210 - web_scrape.store_scrape: -24 products scraped on page - 20
+INFO - 2024-06-28 11:09:09,210 - web_scrape.store_scrape: -Number of products scrapped so far - 480
+INFO - 2024-06-28 11:09:09,997 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 21
+INFO - 2024-06-28 11:09:12,157 - web_scrape.store_scrape: -24 products scraped on page - 21
+INFO - 2024-06-28 11:09:12,157 - web_scrape.store_scrape: -Number of products scrapped so far - 504
+INFO - 2024-06-28 11:09:12,960 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 22
+INFO - 2024-06-28 11:09:15,954 - web_scrape.store_scrape: -21 products scraped on page - 22
+INFO - 2024-06-28 11:09:15,954 - web_scrape.store_scrape: -Number of products scrapped so far - 525
+ERROR - 2024-06-28 11:09:26,106 - web_scrape.store_scrape: -Message: element not interactable
+  (Session info: chrome-headless-shell=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B9BC1F22+60322]
+	(No symbol) [0x00007FF7B9B3CE99]
+	(No symbol) [0x00007FF7B99F7CE9]
+	(No symbol) [0x00007FF7B9A489C2]
+	(No symbol) [0x00007FF7B9A3B491]
+	(No symbol) [0x00007FF7B9A6C21A]
+	(No symbol) [0x00007FF7B9A3ADB6]
+	(No symbol) [0x00007FF7B9A6C430]
+	(No symbol) [0x00007FF7B9A8BC80]
+	(No symbol) [0x00007FF7B9A6BFC3]
+	(No symbol) [0x00007FF7B9A39617]
+	(No symbol) [0x00007FF7B9A3A211]
+	GetHandleVerifier [0x00007FF7B9ED946D+3301613]
+	GetHandleVerifier [0x00007FF7B9F23693+3605267]
+	GetHandleVerifier [0x00007FF7B9F19410+3563664]
+	GetHandleVerifier [0x00007FF7B9C742F6+790390]
+	(No symbol) [0x00007FF7B9B474DF]
+	(No symbol) [0x00007FF7B9B433D4]
+	(No symbol) [0x00007FF7B9B43562]
+	(No symbol) [0x00007FF7B9B32F6F]
+	BaseThreadInitThunk [0x00007FFCB5087344+20]
+	RtlUserThreadStart [0x00007FFCB6C5CC91+33]
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 163, in get_woolworth_urls
+    next_page_button_woolworths.click()
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome-headless-shell=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B9BC1F22+60322]
+	(No symbol) [0x00007FF7B9B3CE99]
+	(No symbol) [0x00007FF7B99F7CE9]
+	(No symbol) [0x00007FF7B9A489C2]
+	(No symbol) [0x00007FF7B9A3B491]
+	(No symbol) [0x00007FF7B9A6C21A]
+	(No symbol) [0x00007FF7B9A3ADB6]
+	(No symbol) [0x00007FF7B9A6C430]
+	(No symbol) [0x00007FF7B9A8BC80]
+	(No symbol) [0x00007FF7B9A6BFC3]
+	(No symbol) [0x00007FF7B9A39617]
+	(No symbol) [0x00007FF7B9A3A211]
+	GetHandleVerifier [0x00007FF7B9ED946D+3301613]
+	GetHandleVerifier [0x00007FF7B9F23693+3605267]
+	GetHandleVerifier [0x00007FF7B9F19410+3563664]
+	GetHandleVerifier [0x00007FF7B9C742F6+790390]
+	(No symbol) [0x00007FF7B9B474DF]
+	(No symbol) [0x00007FF7B9B433D4]
+	(No symbol) [0x00007FF7B9B43562]
+	(No symbol) [0x00007FF7B9B32F6F]
+	BaseThreadInitThunk [0x00007FFCB5087344+20]
+	RtlUserThreadStart [0x00007FFCB6C5CC91+33]
+Stack (most recent call last):
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\main.py", line 29, in <module>
+    store_scraper.get_product_urls()
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\store_scrape.py", line 101, in get_product_urls
+    category_product_links = selenium_scrape.url_scraper(
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 267, in url_scraper
+    product_urls_list = get_woolworth_urls(driver)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 165, in get_woolworth_urls
+    sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
+INFO - 2024-06-28 11:09:31,899 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\2024628\Woolworths_product_urls/Dairy_Eggs_Milk.csv saved
+INFO - 2024-06-28 11:09:48,023 - web_scrape.store_scrape: -The number of products found for this category - 1630
+INFO - 2024-06-28 11:09:48,080 - web_scrape.store_scrape: -Woolworths next page button found
+INFO - 2024-06-28 11:09:53,374 - web_scrape.store_scrape: -24 products scraped on page - 1
+INFO - 2024-06-28 11:09:53,375 - web_scrape.store_scrape: -Number of products scrapped so far - 24
+ERROR - 2024-06-28 11:09:54,811 - web_scrape.store_scrape: -Message: element click intercepted: Element <li class="pagination__nav">...</li> is not clickable at point (217, 580). Other element would receive the click: <strong class="text-small d-f">...</strong>
+  (Session info: chrome-headless-shell=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B9BC1F22+60322]
+	(No symbol) [0x00007FF7B9B3CE99]
+	(No symbol) [0x00007FF7B99F7EBA]
+	(No symbol) [0x00007FF7B9A4F32E]
+	(No symbol) [0x00007FF7B9A4CCF2]
+	(No symbol) [0x00007FF7B9A4A18B]
+	(No symbol) [0x00007FF7B9A49356]
+	(No symbol) [0x00007FF7B9A3B491]
+	(No symbol) [0x00007FF7B9A6C21A]
+	(No symbol) [0x00007FF7B9A3ADB6]
+	(No symbol) [0x00007FF7B9A6C430]
+	(No symbol) [0x00007FF7B9A8BC80]
+	(No symbol) [0x00007FF7B9A6BFC3]
+	(No symbol) [0x00007FF7B9A39617]
+	(No symbol) [0x00007FF7B9A3A211]
+	GetHandleVerifier [0x00007FF7B9ED946D+3301613]
+	GetHandleVerifier [0x00007FF7B9F23693+3605267]
+	GetHandleVerifier [0x00007FF7B9F19410+3563664]
+	GetHandleVerifier [0x00007FF7B9C742F6+790390]
+	(No symbol) [0x00007FF7B9B474DF]
+	(No symbol) [0x00007FF7B9B433D4]
+	(No symbol) [0x00007FF7B9B43562]
+	(No symbol) [0x00007FF7B9B32F6F]
+	BaseThreadInitThunk [0x00007FFCB5087344+20]
+	RtlUserThreadStart [0x00007FFCB6C5CC91+33]
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 163, in get_woolworth_urls
+    next_page_button_woolworths.click()
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li class="pagination__nav">...</li> is not clickable at point (217, 580). Other element would receive the click: <strong class="text-small d-f">...</strong>
+  (Session info: chrome-headless-shell=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B9BC1F22+60322]
+	(No symbol) [0x00007FF7B9B3CE99]
+	(No symbol) [0x00007FF7B99F7EBA]
+	(No symbol) [0x00007FF7B9A4F32E]
+	(No symbol) [0x00007FF7B9A4CCF2]
+	(No symbol) [0x00007FF7B9A4A18B]
+	(No symbol) [0x00007FF7B9A49356]
+	(No symbol) [0x00007FF7B9A3B491]
+	(No symbol) [0x00007FF7B9A6C21A]
+	(No symbol) [0x00007FF7B9A3ADB6]
+	(No symbol) [0x00007FF7B9A6C430]
+	(No symbol) [0x00007FF7B9A8BC80]
+	(No symbol) [0x00007FF7B9A6BFC3]
+	(No symbol) [0x00007FF7B9A39617]
+	(No symbol) [0x00007FF7B9A3A211]
+	GetHandleVerifier [0x00007FF7B9ED946D+3301613]
+	GetHandleVerifier [0x00007FF7B9F23693+3605267]
+	GetHandleVerifier [0x00007FF7B9F19410+3563664]
+	GetHandleVerifier [0x00007FF7B9C742F6+790390]
+	(No symbol) [0x00007FF7B9B474DF]
+	(No symbol) [0x00007FF7B9B433D4]
+	(No symbol) [0x00007FF7B9B43562]
+	(No symbol) [0x00007FF7B9B32F6F]
+	BaseThreadInitThunk [0x00007FFCB5087344+20]
+	RtlUserThreadStart [0x00007FFCB6C5CC91+33]
+Stack (most recent call last):
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\main.py", line 29, in <module>
+    store_scraper.get_product_urls()
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\store_scrape.py", line 101, in get_product_urls
+    category_product_links = selenium_scrape.url_scraper(
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 267, in url_scraper
+    product_urls_list = get_woolworth_urls(driver)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 165, in get_woolworth_urls
+    sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
+INFO - 2024-06-28 11:09:56,875 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\2024628\Woolworths_product_urls/Pantry.csv saved
+INFO - 2024-06-28 11:10:09,566 - web_scrape.store_scrape: -The number of products found for this category - 446
+INFO - 2024-06-28 11:10:09,625 - web_scrape.store_scrape: -Woolworths next page button found
+INFO - 2024-06-28 11:10:14,901 - web_scrape.store_scrape: -24 products scraped on page - 1
+INFO - 2024-06-28 11:10:14,901 - web_scrape.store_scrape: -Number of products scrapped so far - 24
+INFO - 2024-06-28 11:10:15,753 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 2
+INFO - 2024-06-28 11:10:16,810 - web_scrape.store_scrape: -24 products scraped on page - 2
+INFO - 2024-06-28 11:10:16,811 - web_scrape.store_scrape: -Number of products scrapped so far - 48
+INFO - 2024-06-28 11:10:17,299 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 3
+INFO - 2024-06-28 11:10:18,518 - web_scrape.store_scrape: -24 products scraped on page - 3
+INFO - 2024-06-28 11:10:18,518 - web_scrape.store_scrape: -Number of products scrapped so far - 72
+INFO - 2024-06-28 11:10:19,063 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 4
+INFO - 2024-06-28 11:10:20,731 - web_scrape.store_scrape: -24 products scraped on page - 4
+INFO - 2024-06-28 11:10:20,731 - web_scrape.store_scrape: -Number of products scrapped so far - 96
+INFO - 2024-06-28 11:10:21,357 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 5
+INFO - 2024-06-28 11:10:22,819 - web_scrape.store_scrape: -24 products scraped on page - 5
+INFO - 2024-06-28 11:10:22,819 - web_scrape.store_scrape: -Number of products scrapped so far - 120
+INFO - 2024-06-28 11:10:23,326 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 6
+INFO - 2024-06-28 11:10:24,885 - web_scrape.store_scrape: -24 products scraped on page - 6
+INFO - 2024-06-28 11:10:24,885 - web_scrape.store_scrape: -Number of products scrapped so far - 144
+INFO - 2024-06-28 11:10:25,414 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 7
+INFO - 2024-06-28 11:10:27,005 - web_scrape.store_scrape: -24 products scraped on page - 7
+INFO - 2024-06-28 11:10:27,005 - web_scrape.store_scrape: -Number of products scrapped so far - 168
+INFO - 2024-06-28 11:10:27,520 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 8
+INFO - 2024-06-28 11:10:29,222 - web_scrape.store_scrape: -24 products scraped on page - 8
+INFO - 2024-06-28 11:10:29,222 - web_scrape.store_scrape: -Number of products scrapped so far - 192
+INFO - 2024-06-28 11:10:29,725 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 9
+INFO - 2024-06-28 11:10:31,271 - web_scrape.store_scrape: -24 products scraped on page - 9
+INFO - 2024-06-28 11:10:31,271 - web_scrape.store_scrape: -Number of products scrapped so far - 216
+INFO - 2024-06-28 11:10:31,815 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 10
+INFO - 2024-06-28 11:10:33,496 - web_scrape.store_scrape: -24 products scraped on page - 10
+INFO - 2024-06-28 11:10:33,496 - web_scrape.store_scrape: -Number of products scrapped so far - 240
+INFO - 2024-06-28 11:10:34,198 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 11
+INFO - 2024-06-28 11:10:35,713 - web_scrape.store_scrape: -24 products scraped on page - 11
+INFO - 2024-06-28 11:10:35,713 - web_scrape.store_scrape: -Number of products scrapped so far - 264
+INFO - 2024-06-28 11:10:36,493 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 12
+INFO - 2024-06-28 11:10:38,483 - web_scrape.store_scrape: -24 products scraped on page - 12
+INFO - 2024-06-28 11:10:38,483 - web_scrape.store_scrape: -Number of products scrapped so far - 288
+INFO - 2024-06-28 11:10:39,224 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 13
+INFO - 2024-06-28 11:10:41,020 - web_scrape.store_scrape: -24 products scraped on page - 13
+INFO - 2024-06-28 11:10:41,020 - web_scrape.store_scrape: -Number of products scrapped so far - 312
+INFO - 2024-06-28 11:10:41,612 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 14
+INFO - 2024-06-28 11:10:43,260 - web_scrape.store_scrape: -24 products scraped on page - 14
+INFO - 2024-06-28 11:10:43,260 - web_scrape.store_scrape: -Number of products scrapped so far - 336
+INFO - 2024-06-28 11:10:43,861 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 15
+INFO - 2024-06-28 11:10:45,513 - web_scrape.store_scrape: -24 products scraped on page - 15
+INFO - 2024-06-28 11:10:45,513 - web_scrape.store_scrape: -Number of products scrapped so far - 360
+INFO - 2024-06-28 11:10:46,089 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 16
+INFO - 2024-06-28 11:10:47,755 - web_scrape.store_scrape: -24 products scraped on page - 16
+INFO - 2024-06-28 11:10:47,756 - web_scrape.store_scrape: -Number of products scrapped so far - 384
+INFO - 2024-06-28 11:10:48,354 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 17
+INFO - 2024-06-28 11:10:50,476 - web_scrape.store_scrape: -24 products scraped on page - 17
+INFO - 2024-06-28 11:10:50,476 - web_scrape.store_scrape: -Number of products scrapped so far - 408
+INFO - 2024-06-28 11:10:51,093 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 18
+INFO - 2024-06-28 11:10:52,994 - web_scrape.store_scrape: -24 products scraped on page - 18
+INFO - 2024-06-28 11:10:52,994 - web_scrape.store_scrape: -Number of products scrapped so far - 432
+INFO - 2024-06-28 11:10:53,676 - web_scrape.store_scrape: -Woolworth next page button clicked - going to page - 19
+INFO - 2024-06-28 11:10:55,050 - web_scrape.store_scrape: -14 products scraped on page - 19
+INFO - 2024-06-28 11:10:55,050 - web_scrape.store_scrape: -Number of products scrapped so far - 446
+ERROR - 2024-06-28 11:11:05,166 - web_scrape.store_scrape: -Message: element not interactable
+  (Session info: chrome-headless-shell=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B9BC1F22+60322]
+	(No symbol) [0x00007FF7B9B3CE99]
+	(No symbol) [0x00007FF7B99F7CE9]
+	(No symbol) [0x00007FF7B9A489C2]
+	(No symbol) [0x00007FF7B9A3B491]
+	(No symbol) [0x00007FF7B9A6C21A]
+	(No symbol) [0x00007FF7B9A3ADB6]
+	(No symbol) [0x00007FF7B9A6C430]
+	(No symbol) [0x00007FF7B9A8BC80]
+	(No symbol) [0x00007FF7B9A6BFC3]
+	(No symbol) [0x00007FF7B9A39617]
+	(No symbol) [0x00007FF7B9A3A211]
+	GetHandleVerifier [0x00007FF7B9ED946D+3301613]
+	GetHandleVerifier [0x00007FF7B9F23693+3605267]
+	GetHandleVerifier [0x00007FF7B9F19410+3563664]
+	GetHandleVerifier [0x00007FF7B9C742F6+790390]
+	(No symbol) [0x00007FF7B9B474DF]
+	(No symbol) [0x00007FF7B9B433D4]
+	(No symbol) [0x00007FF7B9B43562]
+	(No symbol) [0x00007FF7B9B32F6F]
+	BaseThreadInitThunk [0x00007FFCB5087344+20]
+	RtlUserThreadStart [0x00007FFCB6C5CC91+33]
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 163, in get_woolworth_urls
+    next_page_button_woolworths.click()
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome-headless-shell=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B9BC1F22+60322]
+	(No symbol) [0x00007FF7B9B3CE99]
+	(No symbol) [0x00007FF7B99F7CE9]
+	(No symbol) [0x00007FF7B9A489C2]
+	(No symbol) [0x00007FF7B9A3B491]
+	(No symbol) [0x00007FF7B9A6C21A]
+	(No symbol) [0x00007FF7B9A3ADB6]
+	(No symbol) [0x00007FF7B9A6C430]
+	(No symbol) [0x00007FF7B9A8BC80]
+	(No symbol) [0x00007FF7B9A6BFC3]
+	(No symbol) [0x00007FF7B9A39617]
+	(No symbol) [0x00007FF7B9A3A211]
+	GetHandleVerifier [0x00007FF7B9ED946D+3301613]
+	GetHandleVerifier [0x00007FF7B9F23693+3605267]
+	GetHandleVerifier [0x00007FF7B9F19410+3563664]
+	GetHandleVerifier [0x00007FF7B9C742F6+790390]
+	(No symbol) [0x00007FF7B9B474DF]
+	(No symbol) [0x00007FF7B9B433D4]
+	(No symbol) [0x00007FF7B9B43562]
+	(No symbol) [0x00007FF7B9B32F6F]
+	BaseThreadInitThunk [0x00007FFCB5087344+20]
+	RtlUserThreadStart [0x00007FFCB6C5CC91+33]
+Stack (most recent call last):
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\main.py", line 29, in <module>
+    store_scraper.get_product_urls()
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\store_scrape.py", line 101, in get_product_urls
+    category_product_links = selenium_scrape.url_scraper(
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 267, in url_scraper
+    product_urls_list = get_woolworth_urls(driver)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 165, in get_woolworth_urls
+    sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
+INFO - 2024-06-28 11:11:07,296 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\2024628\Woolworths_product_urls/Beverages_Juice.csv saved
+INFO - 2024-06-28 11:11:07,297 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\2024628 created!.
+INFO - 2024-06-28 11:11:07,298 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\2024628\Checkers_product_urls created!.
+INFO - 2024-06-28 11:11:07,298 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\2024628\Checkers_product_data created!.
+INFO - 2024-06-28 11:11:17,757 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:11:25,213 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:11:31,353 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:11:39,111 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:11:46,607 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:11:53,343 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:11:59,758 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:12:12,443 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:12:21,390 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:12:27,735 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:12:33,940 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:12:41,310 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:12:50,613 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:12:59,531 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:13:08,518 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:13:16,696 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:13:23,806 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:13:30,076 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:13:36,412 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:13:44,854 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:13:51,492 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:13:59,803 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:14:09,207 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:14:15,704 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:14:22,236 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:14:30,830 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:14:40,432 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:14:48,337 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:14:55,477 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:15:04,607 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:15:12,074 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:15:21,852 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:15:30,884 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:15:38,520 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:15:45,710 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:15:53,549 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:16:01,671 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:16:09,359 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:16:17,639 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:16:26,491 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:16:34,730 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:16:44,787 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:16:56,153 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:17:07,501 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:17:18,141 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:17:27,655 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:17:35,258 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:17:42,451 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:17:49,760 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:17:58,448 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:18:07,684 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:18:15,029 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:18:22,887 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:18:31,468 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:18:40,256 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:18:49,326 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:18:57,485 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:19:06,710 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:19:14,949 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:19:23,028 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:19:31,255 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:19:40,222 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:19:50,519 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:19:56,978 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:20:03,869 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:20:11,539 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:20:20,425 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:20:27,864 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:20:35,590 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:20:45,532 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:20:55,332 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:21:05,899 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:21:18,077 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:21:28,980 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:21:37,641 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:21:44,793 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:21:52,625 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:22:02,810 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:22:12,699 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:22:20,904 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:22:34,715 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:22:46,303 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:22:54,163 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:23:04,293 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:23:16,023 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:23:24,728 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:23:30,677 - web_scrape.store_scrape: -4 product urls collected. 
+INFO - 2024-06-28 11:23:33,266 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\2024628\Checkers_product_urls/FreshFood.csv saved
+INFO - 2024-06-28 11:23:49,874 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:23:58,830 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:24:06,457 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:24:14,517 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:24:22,388 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:24:30,055 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:24:36,970 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:24:43,385 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:24:50,132 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:24:58,422 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:25:06,313 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:25:12,417 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:25:18,756 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:25:25,176 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:25:31,311 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:25:37,429 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:25:43,724 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:25:49,782 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:25:56,312 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:26:04,758 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:26:14,081 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:26:23,680 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:26:32,950 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:26:39,304 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:26:45,342 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:26:51,491 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:26:57,742 - web_scrape.store_scrape: -18 product urls collected. 
+INFO - 2024-06-28 11:27:00,003 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\2024628\Checkers_product_urls/FrozenFood.csv saved
+INFO - 2024-06-28 11:27:13,871 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:27:19,829 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:27:26,277 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:27:34,350 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:27:41,890 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:27:49,359 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:27:56,306 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:28:03,252 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:28:11,318 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:28:17,930 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:28:25,684 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:28:33,381 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:28:40,563 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:28:48,910 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:28:57,440 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:29:06,357 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:29:15,740 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:29:23,396 - web_scrape.store_scrape: -9 product urls collected. 
+INFO - 2024-06-28 11:29:26,007 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\2024628\Checkers_product_urls/Bakery.csv saved
+INFO - 2024-06-28 11:29:41,770 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:29:50,505 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:29:59,736 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:30:07,968 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:30:15,972 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:30:23,514 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:30:31,174 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:30:39,541 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:30:48,820 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:30:56,963 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:31:06,286 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:31:15,406 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:31:23,731 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:31:32,264 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:31:40,992 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:31:50,346 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:32:00,611 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:32:09,144 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:32:18,004 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:32:26,505 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:32:34,926 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:32:43,794 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:32:53,515 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:33:01,451 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:33:11,603 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:33:20,798 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:33:32,165 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:33:42,420 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:33:52,270 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:34:02,205 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:34:10,601 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:34:20,417 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:34:31,045 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:34:40,328 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:34:50,849 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:35:01,180 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:35:14,481 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:35:27,337 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:35:39,611 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:35:51,433 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:36:01,895 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:36:10,991 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:36:19,816 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:36:28,506 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:36:37,710 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:36:45,126 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:36:53,165 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:37:00,980 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:37:07,851 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:37:15,157 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:37:22,528 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:37:29,668 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:37:36,852 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:37:44,489 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:37:51,698 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:38:00,733 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:38:09,112 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:38:17,743 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:38:27,478 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:38:37,237 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:38:46,288 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:38:55,286 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:39:05,587 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:39:15,019 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:39:23,592 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:39:31,665 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:39:40,786 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:39:49,410 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:39:58,836 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:40:08,095 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:40:17,615 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:40:26,624 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:40:35,332 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:40:44,145 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:40:53,143 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:41:02,589 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:41:11,640 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:41:22,017 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:41:34,637 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:41:46,115 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:41:56,069 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:42:07,293 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:42:18,667 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:42:28,501 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:42:40,248 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:42:49,120 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:43:00,174 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:43:11,494 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:43:20,122 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:43:31,822 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:43:40,359 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:43:48,747 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:43:56,160 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:44:04,258 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:44:11,902 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:44:20,314 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:44:28,460 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:44:36,538 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:44:44,411 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:44:53,785 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:45:03,400 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:45:13,619 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:45:23,317 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:45:33,937 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:45:43,437 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:45:54,487 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:46:05,791 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:46:18,409 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:46:30,421 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:46:40,771 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:46:53,017 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:47:03,096 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:47:14,838 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:47:24,986 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:47:36,808 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:48:00,845 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:48:11,958 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:48:21,622 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:48:31,053 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:48:42,135 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:48:52,020 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:49:02,376 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:49:12,134 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:49:22,344 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:49:32,527 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:49:42,388 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:49:54,177 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:50:05,380 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:50:15,764 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:50:25,569 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:50:36,389 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:50:46,959 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:50:58,282 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:51:09,252 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:51:19,013 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:51:29,956 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:51:40,472 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 11:51:55,132 - web_scrape.store_scrape: -20 product urls collected. 
+ERROR - 2024-06-28 11:52:04,419 - web_scrape.store_scrape: -Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome-headless-shell=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B9BC1F22+60322]
+	(No symbol) [0x00007FF7B9B3CE99]
+	(No symbol) [0x00007FF7B99F7EBA]
+	(No symbol) [0x00007FF7B99DF1CC]
+	(No symbol) [0x00007FF7B99DF090]
+	(No symbol) [0x00007FF7B99FA4E1]
+	(No symbol) [0x00007FF7B9A8B359]
+	(No symbol) [0x00007FF7B9A6BFC3]
+	(No symbol) [0x00007FF7B9A39617]
+	(No symbol) [0x00007FF7B9A3A211]
+	GetHandleVerifier [0x00007FF7B9ED946D+3301613]
+	GetHandleVerifier [0x00007FF7B9F23693+3605267]
+	GetHandleVerifier [0x00007FF7B9F19410+3563664]
+	GetHandleVerifier [0x00007FF7B9C742F6+790390]
+	(No symbol) [0x00007FF7B9B474DF]
+	(No symbol) [0x00007FF7B9B433D4]
+	(No symbol) [0x00007FF7B9B43562]
+	(No symbol) [0x00007FF7B9B32F6F]
+	BaseThreadInitThunk [0x00007FFCB5087344+20]
+	RtlUserThreadStart [0x00007FFCB6C5CC91+33]
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 199, in get_checkers_urls
+    products = driver.find_elements(By.CLASS_NAME,"item-product__image")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 771, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {"using": by, "value": value})["value"] or []
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome-headless-shell=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B9BC1F22+60322]
+	(No symbol) [0x00007FF7B9B3CE99]
+	(No symbol) [0x00007FF7B99F7EBA]
+	(No symbol) [0x00007FF7B99DF1CC]
+	(No symbol) [0x00007FF7B99DF090]
+	(No symbol) [0x00007FF7B99FA4E1]
+	(No symbol) [0x00007FF7B9A8B359]
+	(No symbol) [0x00007FF7B9A6BFC3]
+	(No symbol) [0x00007FF7B9A39617]
+	(No symbol) [0x00007FF7B9A3A211]
+	GetHandleVerifier [0x00007FF7B9ED946D+3301613]
+	GetHandleVerifier [0x00007FF7B9F23693+3605267]
+	GetHandleVerifier [0x00007FF7B9F19410+3563664]
+	GetHandleVerifier [0x00007FF7B9C742F6+790390]
+	(No symbol) [0x00007FF7B9B474DF]
+	(No symbol) [0x00007FF7B9B433D4]
+	(No symbol) [0x00007FF7B9B43562]
+	(No symbol) [0x00007FF7B9B32F6F]
+	BaseThreadInitThunk [0x00007FFCB5087344+20]
+	RtlUserThreadStart [0x00007FFCB6C5CC91+33]
+Stack (most recent call last):
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\main.py", line 29, in <module>
+    store_scraper.get_product_urls()
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\store_scrape.py", line 101, in get_product_urls
+    category_product_links = selenium_scrape.url_scraper(
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 270, in url_scraper
+    product_urls_list = get_checkers_urls(driver)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 206, in get_checkers_urls
+    sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
+INFO - 2024-06-28 14:53:08,880 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\2024628\Checkers_product_urls/FoodCupboard.csv saved
+INFO - 2024-06-28 14:53:28,151 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 14:54:34,298 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 14:54:47,450 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 14:54:58,151 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 14:55:07,518 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 14:55:18,427 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 14:55:30,342 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 14:55:40,153 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 14:55:49,253 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 14:55:58,518 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 14:56:07,893 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 14:56:17,062 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 14:56:26,989 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 14:56:36,186 - web_scrape.store_scrape: -20 product urls collected. 
+INFO - 2024-06-28 14:56:46,346 - web_scrape.store_scrape: -20 product urls collected. 
+ERROR - 2024-06-28 14:56:48,263 - web_scrape.store_scrape: -Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome-headless-shell=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B9BC1F22+60322]
+	(No symbol) [0x00007FF7B9B3CE99]
+	(No symbol) [0x00007FF7B99F7EBA]
+	(No symbol) [0x00007FF7B99DF1CC]
+	(No symbol) [0x00007FF7B99DF090]
+	(No symbol) [0x00007FF7B99FA4E1]
+	(No symbol) [0x00007FF7B9A8B359]
+	(No symbol) [0x00007FF7B9A6BFC3]
+	(No symbol) [0x00007FF7B9A39617]
+	(No symbol) [0x00007FF7B9A3A211]
+	GetHandleVerifier [0x00007FF7B9ED946D+3301613]
+	GetHandleVerifier [0x00007FF7B9F23693+3605267]
+	GetHandleVerifier [0x00007FF7B9F19410+3563664]
+	GetHandleVerifier [0x00007FF7B9C742F6+790390]
+	(No symbol) [0x00007FF7B9B474DF]
+	(No symbol) [0x00007FF7B9B433D4]
+	(No symbol) [0x00007FF7B9B43562]
+	(No symbol) [0x00007FF7B9B32F6F]
+	BaseThreadInitThunk [0x00007FFCB5087344+20]
+	RtlUserThreadStart [0x00007FFCB6C5CC91+33]
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 199, in get_checkers_urls
+    products = driver.find_elements(By.CLASS_NAME,"item-product__image")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 771, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {"using": by, "value": value})["value"] or []
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome-headless-shell=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B9BC1F22+60322]
+	(No symbol) [0x00007FF7B9B3CE99]
+	(No symbol) [0x00007FF7B99F7EBA]
+	(No symbol) [0x00007FF7B99DF1CC]
+	(No symbol) [0x00007FF7B99DF090]
+	(No symbol) [0x00007FF7B99FA4E1]
+	(No symbol) [0x00007FF7B9A8B359]
+	(No symbol) [0x00007FF7B9A6BFC3]
+	(No symbol) [0x00007FF7B9A39617]
+	(No symbol) [0x00007FF7B9A3A211]
+	GetHandleVerifier [0x00007FF7B9ED946D+3301613]
+	GetHandleVerifier [0x00007FF7B9F23693+3605267]
+	GetHandleVerifier [0x00007FF7B9F19410+3563664]
+	GetHandleVerifier [0x00007FF7B9C742F6+790390]
+	(No symbol) [0x00007FF7B9B474DF]
+	(No symbol) [0x00007FF7B9B433D4]
+	(No symbol) [0x00007FF7B9B43562]
+	(No symbol) [0x00007FF7B9B32F6F]
+	BaseThreadInitThunk [0x00007FFCB5087344+20]
+	RtlUserThreadStart [0x00007FFCB6C5CC91+33]
+Stack (most recent call last):
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\main.py", line 29, in <module>
+    store_scraper.get_product_urls()
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\store_scrape.py", line 101, in get_product_urls
+    category_product_links = selenium_scrape.url_scraper(
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 270, in url_scraper
+    product_urls_list = get_checkers_urls(driver)
+  File "C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\web_scrape\selenium_scrape.py", line 206, in get_checkers_urls
+    sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
+INFO - 2024-06-28 14:57:01,041 - web_scrape.store_scrape: -C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\2024628\Checkers_product_urls/Drinks.csv saved
