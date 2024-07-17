@@ -77,7 +77,6 @@ def click_next_page_button_checkers(driver):
         next_page_button_checkers.click()
     except Exception as error:
         sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-        # print(f"Error occurred while trying to click page - {error}")
         # refresh the page
         driver.refresh()
         # try to call the function again - possible to enter infinite loop
@@ -115,20 +114,17 @@ def get_woolworth_urls(driver):
         )[1]
     except IndexError as error:
         sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-        # print(f"An IndexError occurred - {error}")
         next_page_button_woolworths = driver.find_elements(
             By.CLASS_NAME, "pagination__nav"
         )[0]
     except Exception as error:
         sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-        # print(f" An unexpected error occurred - trying to locate next page button - {error}")
 
     # initialise the page counter
     page_counter = 1
     # check if the next page button is displayed
     if next_page_button_woolworths.is_displayed():
         sel_scraper_logger.info("Woolworths next page button found")
-        # print("Woolworths next page button found")
 
         # sleep for 5 seconds
         time.sleep(5)
@@ -141,7 +137,6 @@ def get_woolworth_urls(driver):
                 product_anchors = driver.find_elements(By.CLASS_NAME, "product--view")
             except Exception as error:
                 sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-                # print(f"An unexpected error occurred while trying to find the product links on the page. - {error}")
             else:
                 for anchor in product_anchors:
                     # get the url
@@ -152,12 +147,10 @@ def get_woolworth_urls(driver):
             sel_scraper_logger.info(
                 f"{len(product_anchors)} products scraped on page - {page_counter}"
             )
-            # print(f"{len(product_anchors)} products scraped on page - {page_counter}")
             # inform number of products scraped in total
             sel_scraper_logger.info(
                 f"Number of products scrapped so far - {len(product_link_list)}"
             )
-            # print(f"Number of products scrapped so far - {len(product_link_list)}")
 
             # find the next_page_button again
             next_page_button_woolworths = driver.find_elements(
@@ -168,13 +161,9 @@ def get_woolworth_urls(driver):
             if len(next_page_button_woolworths) > 1:
                 next_page_button_woolworths = next_page_button_woolworths[1]
 
-            # if page_counter == 1:
-            #     next_page_button_woolworths = next_page_button_woolworths[0]
-
             # check if the number of products scrapped is larger than the product count
             if len(product_link_list) > product_count_int:
                 sel_scraper_logger.info("Collected more products than on category")
-                # print(f"Collected more products than on category")
                 break
             # try to click on the next page button
             else:
@@ -183,7 +172,6 @@ def get_woolworth_urls(driver):
                     next_page_button_woolworths.click()
                 except Exception as error:
                     sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-                    # print(f"An unexpected error occurred trying to click on next page button- {error}")
                     break
 
             # increment page counter
@@ -191,7 +179,6 @@ def get_woolworth_urls(driver):
             sel_scraper_logger.info(
                 f"Woolworth next page button clicked - going to page - {page_counter}"
             )
-            # print(f"Woolworth next page button clicked - going to page - {page_counter}")
             driver.implicitly_wait(10)
 
     return product_link_list
@@ -229,12 +216,8 @@ def get_checkers_urls(driver):
                 sel_scraper_logger.info(
                     f"{len(product_anchors)} product urls collected. "
                 )
-                # print(f"{len(product_anchors)} product urls collected. ")
             except Exception as error:
-                # print("*"*25)
                 sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-                # print(f"An unexpected error occurred while attempting to find the product anchors on the page - {error}")
-                # print("*"*25)
                 break
             # iterate through each anchor
             for product_anchor in product_anchors:
@@ -243,26 +226,17 @@ def get_checkers_urls(driver):
                     # append to the list
                     product_link_list.append(product_link)
                 except Exception as error:
-                    # print("*"*25)
                     sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-                    # print(f"An unexpected error occurred while attempting to retrieve product href")
-                    # print("*"*25)
             try:
                 # find the next page disabled element
                 next_page_button_checkers_disabled = driver.find_elements(
                     By.CSS_SELECTOR, ".pagination-next.disabled"
                 )
             except Exception as error:
-                # print("*"*25)
                 sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-                # print(f"An unexpected error occurred while trying to change pages - {error}")
-                # print("*"*25)
                 break
             else:
                 if next_page_button_checkers_disabled:
-                    # print("*"*25)
-                    # print("No more pages")
-                    # print("*"*25)
                     break
                 else:
                     click_next_page_button_checkers(driver)
@@ -317,7 +291,6 @@ def get_woolies_product_data(csv_file_path: str) -> list:
         product_df = pd.read_csv(csv_file_path)
     except Exception as error:
         sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-        # print(f"{error} - could not read this file {csv_file_path}")
 
     # define output list to store dictionaries
     output_list_dicts = []
@@ -341,18 +314,14 @@ def get_woolies_product_data(csv_file_path: str) -> list:
             page_soup = BeautifulSoup(sel_driver.page_source, "html.parser")
         except Exception as error:
             sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-            # print(f"{error} - could not create a beautiful soup object from the given link")
+        # try to get the product name   
         try:
             # get the product name
-            product_name = page_soup.css.select(".prod-name")[0].getText()
-        except IndexError as error:
-            product_name = "error"
-            sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-            # print(f"could not get product name for {product_link}: error -- {error}")
+            product_name = page_soup.css.select(".prod-name")[0].get_text()
         except Exception as error:
-            product_name = "error"
+            product_name = None
             sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-            # print(f"could not get product name for {product_link}: error -- {error}")
+        # try to get the product barcode
         try:
             product_barcode = (
                 page_soup.find("li", string="Product code:")
@@ -362,23 +331,25 @@ def get_woolies_product_data(csv_file_path: str) -> list:
         except Exception as error:
             product_barcode = None
             sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-            # print(f"could not get product barcode for {product_link}:error -- {error}")
+        # try to get the product price    
         try:
-            # get the product price
             product_price = float(
                 page_soup.css.select(f".prod--price")[0].get_text().replace("R ", "")
             )
         except Exception as error:
             product_price = None
             sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-            # print(f"could not get product price for {product_link}:error -- {error}")
-        try:
-            # get the weight
-            product_weight = helpers.get_product_weight(product_name)
-        except Exception as error:
+        # if product name successfully collected 
+        if product_name != None:
+            try:
+                # get the weight
+                product_weight = helpers.get_product_weight(product_name)
+            except Exception as error:
+                product_weight = None
+                sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
+        # error in product name - set product weight to None
+        else:
             product_weight = None
-            sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-            # print(f"could not get product weight for {product_link}:error -- {error}")
 
         # selected product information to product dictionary
         product_dict["name"] = product_name
@@ -391,8 +362,6 @@ def get_woolies_product_data(csv_file_path: str) -> list:
         # append to the output list
         output_list_dicts.append(product_dict)
         sel_scraper_logger.info(f"completed scraping -- {product_link}")
-        # print(f"completed scraping -- {product_link}")
-        # print("*"*25)
     # return the list of dictionaries
     return output_list_dicts
 
@@ -413,7 +382,6 @@ def get_checkers_product_data(csv_file_path: str) -> list:
         product_df = pd.read_csv(csv_file_path)
     except Exception as error:
         sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-        # print(f"{error} - could not read this file {csv_file_path}")
 
     # define output list to store dictionaries
     output_list_dicts = []
@@ -430,43 +398,40 @@ def get_checkers_product_data(csv_file_path: str) -> list:
         product_dict["category"] = product_category
         # set the date of product information
         product_dict["date"] = product_info_date
-        # scrape with beautiful soup
+        # try to scrape with beautiful soup
         try:
             # get the web page
             sel_driver.get(product_link)
-            # parse the web page with beautiful soup
+            # parse the web page with beautiful soup with html parser
             page_soup = BeautifulSoup(sel_driver.page_source, "html.parser")
         except Exception as error:
             sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-            # print(f"{e} - could not create a beautiful soup object from the given link")
+        # try to get the product name
         try:
             # get the product name
-            product_name = page_soup.css.select(".pdp__name")[0].getText()
-        except IndexError as error:
-            product_name = None
-            sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-            # print(f"could not get product name for {product_link}:error--{error}")
+            product_name = page_soup.css.select(".pdp__name")[0].get_text()
         except Exception as error:
             product_name = None
             sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-            # print(f"could not get product name for {product_link}:error--{error}")
-
+        # try to get the product barcode
         try:
-            # get the product barcode
             product_barcode = page_soup.css.select(".pdp__id")[0].getText()
         except Exception as error:
             product_barcode = None
             sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-            # print(f"could not get product barcode for {product_link}:error--{error}")
+        # if product barcode successfully selected
         else:
             # extract number from string
             number_re_pattern = "[0-9]+"
             match_object = re.search(number_re_pattern, product_barcode)
+            # if a match exists
             if match_object:
+                # extract the barcode
                 product_barcode = match_object.group()
+            # if match doesn't exist - set to None
             else:
                 product_barcode = None
-
+        # try to get the product price
         try:
             # get the product price
             product_price = float(
@@ -477,14 +442,19 @@ def get_checkers_product_data(csv_file_path: str) -> list:
         except Exception as error:
             product_price = None
             sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-
-        try:
-            # get the product weight
-            product_weight = helpers.get_product_weight(product_name)
-        except Exception as error:
+        # if the product name is not None
+        if product_name != None:
+            # try to get the product weight
+            try:
+                # get the product weight
+                product_weight = helpers.get_product_weight(product_name)
+            except Exception as error:
+                product_weight = None
+                sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
+        # if product name is None - set product weight to None
+        else:
             product_weight = None
-            sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
-
+        # add product information to product dictionary
         product_dict["name"] = product_name
         product_dict["barcode"] = product_barcode
         product_dict["price"] = product_price

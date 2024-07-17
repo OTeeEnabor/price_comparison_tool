@@ -29,7 +29,7 @@ class StoreScraper:
     :param date_stamp (str): date to assign product information
 
     Attributes:
-    : current_date (str) : today's date
+    : current_date (str): today's date
     : store_information_dict (dict): dictionary containing store information to scrape
     : storage_path (str): path to store data
 
@@ -52,9 +52,9 @@ class StoreScraper:
         self.storage_path = Path.cwd() / "data" / "stores"
         # log when Store Scraper is created
         # create StoreScraper Logger
-        store_scraper_logger = logging.getLogger(__name__)
+        self.store_scraper_logger = logging.getLogger(__name__)
         # set logger level to information
-        store_scraper_logger.setLevel(logging.INFO)
+        self.store_scraper_logger.setLevel(logging.INFO)
 
         # log_file_location
         log_file_location = (
@@ -73,9 +73,9 @@ class StoreScraper:
         file_handler = logging.FileHandler(log_config["LOG_FILE"])
         file_handler.setFormatter(formatter)
         file_handler.setLevel(logging.INFO)
-        store_scraper_logger.addHandler(file_handler)
+        self.store_scraper_logger.addHandler(file_handler)
 
-        store_scraper_logger.info("StoreScraper object created!")
+        self.store_scraper_logger.info("StoreScraper object created!")
 
     def get_product_urls(self):
         """
@@ -173,45 +173,53 @@ class StoreScraper:
         for store, csv_list in product_url_dict.items():
             if store == "Woolworths":
                 with concurrent.futures.ProcessPoolExecutor() as executor:
+                    # execute get product data from checkers asynchronously
                     results = executor.map(
                         selenium_scrape.get_woolies_product_data, csv_list
                     )
-                    output_list = []
-                    for result in results:
-                        # convert result iterable to a list - list of product's data from each product in the url
-                        list_result = list(result)
-                        print(list_result)
-                        # add list to output list
-                        output_list.append(list_result)
+                    # output_list = []
+                    # for result in results:
+                    #     # convert result iterable to a list - list of product's data from each product in the url
+                    #     print(type(result))
+                    #     print(result)
+                    #     list_result = list(result)
+                    #     # add list to output list
+                    #     output_list.append(list_result)
 
             if store == "Checkers":
                 with concurrent.futures.ProcessPoolExecutor() as executor:
+                    # execute get product data from checkers asynchronously
                     results = executor.map(
                         selenium_scrape.get_checkers_product_data, csv_list
                     )
-                    output_list = []
-                    for result in results:
-                        # convert the iterable of product's data to a list
-                        list_result = list(result)
-                        print(list_result)
-                        output_list.append(list_result)
-        results = list(np.concatenate(output_list).flat)
-        # create output csv
-        product_data_df = pd.DataFrame(results)
-        # print(product_data_df.head())
-        # create path for csv
-        save_path = (
-            self.storage_path /f"{store}"
-            / f"{self.date_stamp}"
-            / f"{store}_product_data"
-            / "raw"
-            / f"products_data_{self.date_stamp}.csv"
-        )
-        # save to csv
-        product_data_df.to_csv(
-            save_path,
-            index=False,
-        )
+                    # output_list = []
+                    # for result in results:
+                    # convert the iterable of product's data to a list
+                    # print(type(result))
+                    # print(result)
+                    # list_result = list(result)
+                    # print(list_result)
+                    # output_list.append(list_result)
+
+            results = list(np.concatenate(list(results)).flat)
+            # create output csv
+            product_data_df = pd.DataFrame(results)
+            self.store_scraper_logger.info(f"{store} product data frame created.")
+
+            # create path for csv
+            save_path = (
+                self.storage_path
+                / f"{store}"
+                / f"{self.date_stamp}"
+                / f"{store}_product_data"
+                / "raw"
+                / f"products_data_{self.date_stamp}.csv"
+            )
+            # save to csv
+            product_data_df.to_csv(
+                save_path,
+                index=False,
+            )
 
     def process_product_data(self, scrape_date=None) -> None:
         # if scrape_Date argument not given
@@ -228,7 +236,8 @@ class StoreScraper:
         # populate list with path to raw files
         for store_path in store_paths:
             raw_file_path_list.append(
-                store_path/ f"{store_path.name}"
+                store_path
+                / f"{store_path.name}"
                 / f"{self.scrape_date}"
                 / f"{store_path.name}_product_data"
                 / "raw"
@@ -240,10 +249,13 @@ class StoreScraper:
             # drop duplicates
             df = df.drop_duplicates(subset=["barcode"])
             # save file to processed folder
-            save_path = raw_file.parent.parent.name / "processed" / f"products_data_{self.scrape_date}.csv"
+            save_path = (
+                raw_file.parent.parent.name
+                / "processed"
+                / f"products_data_{self.scrape_date}.csv"
+            )
             # save file to csv
             df.to_csv(save_path, index=False)
-        
 
     def upload_products(self, scrape_date=None):
 
@@ -271,9 +283,3 @@ class StoreScraper:
         for processed_file in processed_file_path_list:
             database.upload_products(processed_file)
         print("done")
-
-        # for each store_path
-        # go to date
-        # go to store_product_data
-        # go to processed
-        # upload csv in this folder using psycopg2

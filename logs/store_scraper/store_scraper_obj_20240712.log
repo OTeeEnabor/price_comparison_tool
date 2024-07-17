@@ -2579,3 +2579,22 @@ INFO - 2024-07-14 10:13:33,672 - web_scrape.store_scrape: -StoreScraper object c
 INFO - 2024-07-14 15:37:38,897 - web_scrape.store_scrape: -StoreScraper object created!
 INFO - 2024-07-14 15:38:26,555 - web_scrape.store_scrape: -StoreScraper object created!
 INFO - 2024-07-14 18:50:47,151 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-15 08:37:51,880 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-15 20:04:35,322 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-15 20:19:35,842 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-15 20:25:34,001 - web_scrape.store_scrape: -Woolworths product data frame created.
+INFO - 2024-07-15 20:34:49,865 - web_scrape.store_scrape: -Checkers product data frame created.
+INFO - 2024-07-15 20:41:02,862 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-15 20:46:05,510 - web_scrape.store_scrape: -Woolworths product data frame created.
+INFO - 2024-07-15 20:54:56,904 - web_scrape.store_scrape: -Checkers product data frame created.
+INFO - 2024-07-15 21:05:22,788 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-16 08:40:36,984 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-16 08:43:05,563 - web_scrape.store_scrape: -Woolworths product data frame created.
+INFO - 2024-07-16 08:44:07,519 - web_scrape.store_scrape: -Checkers product data frame created.
+INFO - 2024-07-16 08:49:58,483 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-16 08:55:37,775 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-16 08:58:27,016 - web_scrape.store_scrape: -Woolworths product data frame created.
+INFO - 2024-07-16 08:59:49,238 - web_scrape.store_scrape: -Checkers product data frame created.
+INFO - 2024-07-16 16:45:11,400 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-16 19:36:27,073 - web_scrape.store_scrape: -Woolworths product data frame created.
+INFO - 2024-07-17 04:41:22,639 - web_scrape.store_scrape: -Checkers product data frame created.
