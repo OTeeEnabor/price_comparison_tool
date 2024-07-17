@@ -2598,3 +2598,76 @@ INFO - 2024-07-16 08:59:49,238 - web_scrape.store_scrape: -Checkers product data
 INFO - 2024-07-16 16:45:11,400 - web_scrape.store_scrape: -StoreScraper object created!
 INFO - 2024-07-16 19:36:27,073 - web_scrape.store_scrape: -Woolworths product data frame created.
 INFO - 2024-07-17 04:41:22,639 - web_scrape.store_scrape: -Checkers product data frame created.
+INFO - 2024-07-17 08:59:18,200 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 09:00:04,575 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 09:00:21,019 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 09:01:20,886 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 09:06:40,233 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 09:08:45,448 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 09:09:05,707 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 09:10:58,887 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 09:11:20,146 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 09:12:09,155 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 09:12:23,145 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 09:12:44,020 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 09:13:41,303 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 09:14:28,157 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 09:14:57,313 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 09:15:24,267 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 09:18:46,401 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 09:18:46,697 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\20240712\Checkers_product_data\processed\products_data_20240712.csv.
+INFO - 2024-07-17 09:18:46,769 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\20240712\Woolworths_product_data\processed\products_data_20240712.csv.
+INFO - 2024-07-17 09:20:09,718 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 09:54:34,885 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 10:01:58,863 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 10:03:51,126 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 10:03:51,496 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\20240712\Checkers_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 10:03:51,595 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\20240712\Woolworths_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 10:11:19,288 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 10:11:19,645 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\20240712\Checkers_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 10:11:19,720 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\20240712\Woolworths_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 10:39:35,275 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 10:39:35,508 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\20240712\Checkers_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 10:39:35,579 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\20240712\Woolworths_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 10:43:31,019 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 10:43:31,239 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\20240712\Checkers_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 10:43:31,298 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\20240712\Woolworths_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 10:48:52,621 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 10:48:52,865 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\20240712\Checkers_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 10:48:52,945 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\20240712\Woolworths_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 12:33:40,080 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 12:33:40,330 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\20240712\Checkers_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 12:33:40,400 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\20240712\Woolworths_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 12:34:46,040 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 12:34:46,252 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\20240712\Checkers_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 12:34:46,313 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\20240712\Woolworths_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 13:53:37,106 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 13:53:37,349 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\20240712\Checkers_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 13:53:37,422 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\20240712\Woolworths_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 13:58:41,678 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 13:58:41,993 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\20240712\Checkers_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 13:58:42,060 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\20240712\Woolworths_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 13:59:18,729 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 13:59:18,938 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\20240712\Checkers_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 13:59:19,000 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\20240712\Woolworths_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 14:03:53,028 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 14:03:53,240 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\20240712\Checkers_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 14:03:53,302 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\20240712\Woolworths_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 14:04:29,010 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 14:04:29,218 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\20240712\Checkers_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 14:04:29,285 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\20240712\Woolworths_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 14:50:00,616 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 14:50:00,907 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\20240712\Checkers_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 14:50:00,984 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\20240712\Woolworths_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 14:51:59,641 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 14:51:59,873 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\20240712\Checkers_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 14:51:59,938 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\20240712\Woolworths_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 14:52:34,819 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 14:52:35,064 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\20240712\Checkers_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 14:52:35,157 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\20240712\Woolworths_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 14:53:23,270 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 14:53:23,483 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\20240712\Checkers_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 14:53:23,546 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\20240712\Woolworths_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 14:54:07,769 - web_scrape.store_scrape: -StoreScraper object created!
+INFO - 2024-07-17 14:54:07,977 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Checkers\20240712\Checkers_product_data\processed\processed_products_data_20240712.csv.
+INFO - 2024-07-17 14:54:08,041 - web_scrape.store_scrape: -File processed and saved to - C:\Users\user\Documents\Open Delta Youtube\Python\price_comparison_tool\data\stores\Woolworths\20240712\Woolworths_product_data\processed\processed_products_data_20240712.csv.

@@ -237,25 +237,34 @@ class StoreScraper:
         for store_path in store_paths:
             raw_file_path_list.append(
                 store_path
-                / f"{store_path.name}"
-                / f"{self.scrape_date}"
+                # / f"{store_path.name}"
+                / f"{self.date_stamp}"
                 / f"{store_path.name}_product_data"
                 / "raw"
-                / f"products_data_{self.scrape_date}.csv"
+                / f"products_data_{self.date_stamp}.csv"
             )
         for raw_file in raw_file_path_list:
             # create data-frame
             df = pd.read_csv(raw_file)
             # drop duplicates
             df = df.drop_duplicates(subset=["barcode"])
+            # drop info_date column if it exists
+            if "info_date" in df.columns:
+                df = df.drop("info_date",axis=1)
+                
             # save file to processed folder
             save_path = (
-                raw_file.parent.parent.name
-                / "processed"
-                / f"products_data_{self.scrape_date}.csv"
+                self.storage_path
+                / f"{raw_file.parent.parent.parent.parent.name}"
+                / f"{raw_file.parent.parent.parent.name}"
+                / f"{raw_file.parent.parent.name}"
+                /f"processed"
+                / f"processed_products_data_{self.date_stamp}.csv"
             )
             # save file to csv
             df.to_csv(save_path, index=False)
+            # print(save_path)
+            self.store_scraper_logger.info(f"File processed and saved to - {save_path}.")
 
     def upload_products(self, scrape_date=None):
 
@@ -272,14 +281,16 @@ class StoreScraper:
         processed_file_path_list = []
         # populate list with path to processed files
         for store_path in store_paths:
-            processed_file_path_list.append(
-                store_path
-                / f"{self.scrape_date}"
-                / f"{store_path.name}_product_data"
-                / "processed"
-                / f"processed_products_data_{self.scrape_date}.csv"
-            )
+            # create processed path 
+            processed_file_path = store_path/ f"{self.date_stamp}" / f"{store_path.name}_product_data" / "processed" / f"processed_products_data_{self.date_stamp}.csv"
+            # upload file 
+            database.upload_products(processed_file_path)
 
-        for processed_file in processed_file_path_list:
-            database.upload_products(processed_file)
-        print("done")
+            print(f"{processed_file_path} - uploaded!")
+            # processed_file_path_list.append(
+            #     processed_file_path
+            # )
+
+        # for processed_file in processed_file_path_list:
+        #     database.upload_products(processed_file)
+        # print("done")

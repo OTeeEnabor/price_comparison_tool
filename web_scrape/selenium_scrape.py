@@ -287,9 +287,13 @@ def get_woolies_product_data(csv_file_path: str) -> list:
     """
     # initialise driver object
     sel_driver = create_driver()
+    # try to read product urls csv
     try:
+        # create product urls dataframe from csv file
         product_df = pd.read_csv(csv_file_path)
+    # if any exception occurs   
     except Exception as error:
+        # log exception and move on
         sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
 
     # define output list to store dictionaries
@@ -460,7 +464,6 @@ def get_checkers_product_data(csv_file_path: str) -> list:
         product_dict["price"] = product_price
         product_dict["weight"] = product_weight
         product_dict["category"] = product_category
-        product_dict["info_date"] = product_info_date
         product_dict["url"] = product_link
         product_dict["store"] = "Checkers"
 

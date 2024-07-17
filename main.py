@@ -28,13 +28,13 @@ if __name__ == "__main__":
     # store_scraper.get_product_urls()
 
     # get product data
-    store_scraper.get_product_data()
+    # store_scraper.get_product_data()
 
     # process the raw data
-    # store_scraper.process_[plproduct_data()
+    store_scraper.process_product_data()
 
     # upload the processed data
-    # store_scraper.upload_products()
+    store_scraper.upload_products()
 
 # # get product csv dict
 # product_url_dict = store_scraper.get_product_csv_dict("2024626")
