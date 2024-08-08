@@ -7,7 +7,7 @@ import numpy as np
 
 # append project directory
 sys.path.append(
-    "C:\\Users\\user\\Documents\\Open Delta Youtube\\Python\\price_comparison_tool"
+    str(Path.cwd())#"C:\\Users\\user\\Documents\\Open Delta Youtube\\Python\\price_comparison_tool"
 )
 import web_scrape.helpers
 

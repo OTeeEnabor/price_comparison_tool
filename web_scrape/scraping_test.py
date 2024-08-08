@@ -3,6 +3,18 @@ import helpers
 from pathlib import Path
 path = str(Path.cwd())
 print(path,type(path))
+def get_checkers_price(soup_price_string):
+    if "," not in soup_price_string:
+        product_price = soup_price_string.replace("R","")
+    else:
+        product_price = soup_price_string.replace(",","")
+        product_price = product_price.replace("R", "")
+    return float(product_price)
+
+price_test_str = " R11.49"
+
+print(get_checkers_price(price_test_str))
+# print("," in price)
 # product_list = [
 #     "Corona Extra Beer Bottles 24 x 355ml",
 #     "Bernini Classic Sparkling Grape Frizzante Bottles 6 x 275ml",

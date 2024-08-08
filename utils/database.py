@@ -64,9 +64,7 @@ def upload_products(file_path: Path):
             vectorized_process = np.vectorize(set_none_values)
             # pass array to vectorised function
             row_array_processed = vectorized_process(row_array)
-            # for i, item in enumerate(row):
-            #     if item == "" or item=="error":
-            #         row[i] = None
+            # execute sql query
             cur.execute(insert_statement, row_array_processed)
     # commit transaction
     conn.commit()
