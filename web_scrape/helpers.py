@@ -170,10 +170,10 @@ def get_weight_unit(weight_unit_string: str) -> str:
     str: returns a product's unit of weight.
     """
     unit_pattern_dict = {
-        "grammes_pattern": "\sg|g",
-        "kilogrammes_pattern": "\skg|kg",
-        "mill_litres_pattern": "\sml|ml",
-        "litres_pattern": "\sL|L",
+        "grammes_pattern": "\\sg|g",
+        "kilogrammes_pattern": "\\skg|kg",
+        "mill_litres_pattern": "\\sml|ml",
+        "litres_pattern": "\\sL|L",
     }
     # check if the weight_unit string has a grammes pattern
     if re.search(unit_pattern_dict["kilogrammes_pattern"], weight_unit_string) != None:
