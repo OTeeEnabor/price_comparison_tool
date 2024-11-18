@@ -12,6 +12,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import NoSuchElementException,ElementNotInteractableException
 
 from . import helpers
 
@@ -149,6 +150,22 @@ def get_woolworth_urls(driver) -> list:
         product_link_list = []
 
         while True:
+            # try to remove the cookie modal from DOM usingJS
+            try:
+                cookie_div = driver.find_element(By.ID,"cookie-root")
+            except NoSuchElementException as error:
+                 # inform number of products scraped
+                sel_scraper_logger.info(
+                    f"Woolworths - no cookie html banner to remove"
+                )
+                cookie_div = False
+                
+            if cookie_div:
+                driver.execute_script("document.getElementById('cookie-root').remove();")
+                 # inform number of products scraped
+                sel_scraper_logger.info(
+                    f"Woolworths - cookie html banner removed."
+                )
             try:
                 # find all anchor tags with the class - product--view
                 product_anchors = driver.find_elements(By.CLASS_NAME, "product--view")
@@ -184,9 +201,12 @@ def get_woolworth_urls(driver) -> list:
                 break
             # try to click on the next page button
             else:
+
                 try:
                     # click on button
                     next_page_button_woolworths.click()
+                except ElementNotInteractableException as error:
+                    sel_scraper_logger.exception(error)
                 except Exception as error:
                     sel_scraper_logger.exception(error, stack_info=True, exc_info=True)
                     break
