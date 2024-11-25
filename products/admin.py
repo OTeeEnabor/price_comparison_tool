@@ -11,7 +11,7 @@ class StoreAdmin(admin.ModelAdmin):
 
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
-    list_display = []
+    list_display = ["category_store", "category_name", "category_url"]
 
 
 @admin.register(Products)
