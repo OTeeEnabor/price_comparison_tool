@@ -7,13 +7,26 @@ from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import status
 from rest_framework.response import Response
 
-from .models import Products
-from .serializers import ProductSerializer
+from .models import Store, Products
+from .serializers import StoreSerializer, ProductSerializer
 
 
 # Create your views here.
+class StorePagination(PageNumberPagination):
+    page_size = 10
+
+
 class ProductPagination(PageNumberPagination):
     page_size = 50
+
+
+class StoreViewset(viewsets.ModelViewSet):
+    serializer_class = StoreSerializer
+
+    def get_queryset(self):
+        # limit this to 20 for now
+        queryset = Store.objects.all()  # [:20]
+        return queryset  # super().get_queryset()
 
 
 class ProductsViewset(viewsets.ModelViewSet):
