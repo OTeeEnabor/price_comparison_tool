@@ -1,7 +1,17 @@
 from django.contrib import admin
 
 # Register your models here.
-from .models import Products
+from .models import Store, Category, Products
+
+
+@admin.register(Store)
+class StoreAdmin(admin.ModelAdmin):
+    list_display = ["store_name", "store_base_url"]
+
+
+@admin.register(Category)
+class CategoryAdmin(admin.ModelAdmin):
+    list_display = []
 
 
 @admin.register(Products)
