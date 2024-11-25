@@ -16,7 +16,7 @@ class Category(models.Model):
     category_url = models.CharField(max_length=300)
 
     def __str__(self):
-        return f"{self.category.store_name} - {self.category_name}"
+        return f"{self.category_store.store_name} - {self.category_name}"
 
 
 class Products(models.Model):
