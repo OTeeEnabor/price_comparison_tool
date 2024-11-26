@@ -7,10 +7,16 @@ class StoreSerializer(serializers.ModelSerializer):
         model = Store
         fields = "__all__"
 
+
 class CategorySerializer(serializers.ModelSerializer):
+    category_store = serializers.SlugRelatedField(
+        slug_field="store_name", queryset=Store.objects.all()
+    )
+
     class Meta:
         model = Category
         fields = "__all__"
+
 
 class ProductSerializer(serializers.ModelSerializer):
     class Meta:
