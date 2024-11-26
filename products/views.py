@@ -1,14 +1,17 @@
 from django.core.paginator import Paginator
 from django.shortcuts import render
+
 from rest_framework import viewsets
+from rest_framework.decorators import action
 from rest_framework.views import APIView
 from rest_framework.pagination import PageNumberPagination
-from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import status
 from rest_framework.response import Response
 
-from .models import Store, Products
-from .serializers import StoreSerializer, ProductSerializer
+from django_filters.rest_framework import DjangoFilterBackend
+
+from .models import Category, Store, Products
+from .serializers import CategorySerializer, StoreSerializer, ProductSerializer
 
 
 # Create your views here.
@@ -16,8 +19,62 @@ class StorePagination(PageNumberPagination):
     page_size = 10
 
 
+class CategoryPagination(PageNumberPagination):
+    page_size = 50
+
+
 class ProductPagination(PageNumberPagination):
     page_size = 50
+
+
+class CategoryViewset(viewsets.ModelViewSet):
+
+    serializer_class = CategorySerializer
+    pagination_class = CategoryPagination
+
+    def get_queryset(self):
+        queryset = Category.objects.all()
+        return queryset
+
+    def retrieve(self, request, *args, **kwargs):
+        "Intended to return a single instance of  a model and not a list"
+        print(kwargs)
+        params = kwargs
+        # filter databse by params
+        filtered_categories = Category.objects.filter(
+            category_store__store_name=params["pk"]
+        )
+        # serialize filtered products
+        serialized_filtered_categories = CategorySerializer(
+            filtered_categories, many=True
+        )
+        response = {
+            "data": serialized_filtered_categories.data,
+            "message": "Categories were successfully filtered.",
+        }
+        return Response(response)
+
+    @action(detail=True, methods=["get"], url_path="products")
+    def get_products(self, request, *args, **kwargs):
+        # get store
+        store_name = kwargs["pk"]
+        # get query_parameter -> category
+        category = request.GET.get("category")
+        print(store_name)
+        print(category)
+        # get all products from store
+        products = Products.objects.filter(
+            product_store=store_name, product_category=category
+        )
+        # print(products)
+        # serialize queryset
+        serialized_filtered_products = ProductSerializer(products, many=True)
+
+        response = {
+            "data": serialized_filtered_products.data,
+            "message": "successfully filtered the products based on category and store",
+        }
+        return Response(response)
 
 
 class StoreViewset(viewsets.ModelViewSet):
@@ -28,10 +85,18 @@ class StoreViewset(viewsets.ModelViewSet):
         queryset = Store.objects.all()  # [:20]
         return queryset  # super().get_queryset()
 
+    def retrieve(self, request, *args, **kwargs):
+        # get query parameters
+        query_params = request.query_params()
+        params = kwargs
+        print(params)
+        return Response({})
+
 
 class ProductsViewset(viewsets.ModelViewSet):
 
     serializer_class = ProductSerializer
+
     pagination_class = ProductPagination
 
     def get_queryset(self):
@@ -48,7 +113,7 @@ class ProductsViewset(viewsets.ModelViewSet):
 
         # serialize filtered products
         serialized_filtered_products = ProductSerializer(filtered_products, many=True)
-
+        # print(filtered_products)
         response = {
             "data": serialized_filtered_products.data,
             "message": "products were successfully filtered.",
