@@ -20,7 +20,7 @@ class StorePagination(PageNumberPagination):
 
 
 class CategoryPagination(PageNumberPagination):
-    page_size = 50
+    page_size = 10
 
 
 class ProductPagination(PageNumberPagination):
@@ -33,14 +33,30 @@ class CategoryViewset(viewsets.ModelViewSet):
     pagination_class = CategoryPagination
 
     def get_queryset(self):
+        # `queryset = Category.objects.all()` is retrieving all instances of the `Category` model from
+        # the database. It fetches all the records from the `Category` table in the database and
+        # returns them as a queryset, which can then be used to perform operations like filtering,
+        # sorting, or pagination.
         queryset = Category.objects.all()
         return queryset
 
     def retrieve(self, request, *args, **kwargs):
         "Intended to return a single instance of  a model and not a list"
+        # get list of stores in the database
+        list_of_stores = list(Store.objects.all().values_list("store_name", flat=True))
         print(kwargs)
+        # URl parameters
         params = kwargs
-        # filter databse by params
+        store = params["pk"]
+        # print(list_of_stores)
+        if store not in list_of_stores:
+            return Response(
+                {
+                    "message": "Store not present in database. Please check spelling if sure is in database."
+                },
+                status=status.HTTP_404_NOT_FOUND,
+            )
+        # filter database by params
         filtered_categories = Category.objects.filter(
             category_store__store_name=params["pk"]
         )
@@ -56,7 +72,7 @@ class CategoryViewset(viewsets.ModelViewSet):
 
     @action(detail=True, methods=["get"], url_path="products")
     def get_products(self, request, *args, **kwargs):
-        # get store
+        # get store - should be in list of stores
         store_name = kwargs["pk"]
         # get query_parameter -> category
         category = request.GET.get("category")
@@ -74,7 +90,7 @@ class CategoryViewset(viewsets.ModelViewSet):
             "data": serialized_filtered_products.data,
             "message": "successfully filtered the products based on category and store",
         }
-        return Response(response)
+        return Response(response, status=status.HTTP_200_OK)
 
 
 class StoreViewset(viewsets.ModelViewSet):
